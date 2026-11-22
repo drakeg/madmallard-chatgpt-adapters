@@ -13,3 +13,8 @@
 - [ ] Add source update/version verification and license audit.
 - [ ] Add one additional requested adapter after source review.
 - [ ] Verify ChatGPT instructions against a full target app workflow.
+
+## Sprint 2 — HyperFrames adapter
+- [x] Add reproducible HyperFrames installer and ChatGPT usage instructions.
+- [x] Install and verify nine upstream skills on connected macOS host.
+- [ ] Validate a real HyperFrames render in a project.

@@ -11,6 +11,7 @@ Reusable, version-controlled integration instructions for ChatGPT conversations 
 
 | Adapter | Purpose | Upstream |
 | --- | --- | --- |
+| [HyperFrames](adapters/hyperframes/ADAPTER.md) | Editable HTML-to-video production and local MP4 rendering | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
 | [Scroll Craft](adapters/scroll-craft/ADAPTER.md) | Premium scroll-driven websites, UI design, browser verification | [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft) |
 
 ## ChatGPT Chat usage
@@ -23,7 +24,7 @@ Open or attach the adapter to the relevant ChatGPT conversation, then ask it to 
 
 ## Local coding-agent installation
 
-See [INSTALL.md](INSTALL.md). A non-destructive script installs the original Scroll Craft skill for compatible local agent skill directories, including Codex and Claude Code. The upstream Node, FFmpeg, Playwright, and Chrome tools are still required for full verification; generation services are optional and may incur charges.
+See [INSTALL.md](INSTALL.md). Non-destructive scripts install HyperFrames and the original Scroll Craft skill for compatible local agent skill directories, including Codex and Claude Code. The upstream Node, FFmpeg, Playwright, and Chrome tools are still required for full verification; generation services are optional and may incur charges.
 
 ## Development standards
 

@@ -13,3 +13,10 @@
 - [ ] Add source update/version verification and license audit.
 - [ ] Add one additional requested adapter after source review.
 - [ ] Verify ChatGPT instructions against a full target app workflow.
+
+## Sprint 3 — Unified design toolkit
+- [x] Keep this repository as the canonical GitHub Actions and adapter library
+- [x] Add five reusable setup actions and a cross-platform installer
+- [x] Add source pinning, setup docs, and platform tests
+- [ ] Validate real installations and agent handshakes on supported machines
+- [ ] Merge after all checks pass and tag first tested release

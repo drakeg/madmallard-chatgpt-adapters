@@ -25,3 +25,7 @@ Updates: `git -C ~/.local/share/madmallard/scroll-craft pull --ff-only`. Audit c
 Open [the adapter](adapters/scroll-craft/ADAPTER.md), attach or paste its content into the chat, and ask ChatGPT to follow the upstream skill. The current chat can use it without a global installation, provided the necessary connected coding tools are available.
 
 For persistent behavior in future chats, optionally add a *short reference instruction* to your ChatGPT Custom Instructions, but this cannot guarantee external URLs will be fetched or that a third-party skill executes automatically. Never store API credentials in instructions.
+
+## More design tools
+
+See [DESIGN_TOOLKIT.md](DESIGN_TOOLKIT.md) for the cross-platform installer and reusable GitHub Actions for Awwwards MCP, Screenshots Design Inspiration, Design Scope, Flowscope, and Scroll Craft.

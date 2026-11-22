@@ -1,0 +1,53 @@
+name: Validate reusable design toolkit
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  unit:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Validate Python and manifest generation
+        run: python -m unittest discover -s tests -v
+      - name: Verify cross-platform dry-run
+        run: python scripts/install_design_toolkit.py --tools all --dry-run
+  installation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: ./actions/setup-design-toolkit
+        id: toolkit
+        with:
+          tools: awwwards,screenshots,design-scope,flowscope,scroll-craft
+      - name: Validate MCP executables and generated configuration
+        shell: bash
+        env:
+          CONFIG_FILE: ${{ steps.toolkit.outputs.config-path }}
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          config=json.loads(Path(os.environ["CONFIG_FILE"]).read_text())
+          assert set(config["mcpServers"]) == {
+            "madmallard-awwwards", "madmallard-screenshots", "madmallard-design-scope"
+          }
+          for key in ("madmallard-awwwards","madmallard-screenshots"):
+            assert Path(config["mcpServers"][key]["args"][0]).is_file()
+          print("Verified 3 MCP config entries, 2 executable Node servers and pinned sources")
+          PY

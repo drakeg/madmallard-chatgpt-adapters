@@ -10,3 +10,6 @@
 - For new adapters, provide clear invocation instructions, limitations, tests, and upstream attribution.
 - Validate links, shell syntax, formatting, and known version claims; never invent test results.
 - README badges must correspond to actual repository configuration; use dynamic action, license, issue, and PR badges when applicable.
+
+- Store all design-related reusable GitHub Actions in this repository, not a duplicate actions repository.
+- Keep tested version/commit pins and OS compatibility checks; run real install and protocol tests where practical.

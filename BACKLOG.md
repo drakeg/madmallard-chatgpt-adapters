@@ -7,3 +7,7 @@
 5. P2: Add adapter packaging checks and source-code licensing checks.
 6. P2: Explore official ChatGPT app integration patterns if the product exposes a supported installation interface.
 7. P3: Improve discoverability, examples, and release notes as the library grows.
+
+- P0: Verify three supported MCP server startup handshakes; fix any CI and platform issues
+- P1: Add non-destructive installation registration for local Codex/Claude/Cursor clients
+- P1: Document vendor-media and use-restriction considerations per source

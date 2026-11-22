@@ -1,0 +1,46 @@
+name: Setup Mad Mallard Design Toolkit
+description: Install pinned design inspiration MCP services and reference repositories for CI/agents
+branding:
+  icon: layout
+  color: green
+inputs:
+  tools:
+    description: Comma-separated tools (awwwards,screenshots,design-scope,flowscope,scroll-craft) or all
+    default: awwwards,screenshots
+    required: false
+  install-dir:
+    description: User-writable installation directory, blank uses ~/.local/share/madmallard/design-toolkit
+    required: false
+    default: ''
+  with-deps:
+    description: Install additional Python and Node requirements for design-scope and flowscope
+    required: false
+    default: 'true'
+outputs:
+  config-path:
+    description: Generated MCP-compatible JSON configuration
+    value: ${{ steps.install.outputs.config-path }}
+  install-dir:
+    description: Directory where the tools were installed
+    value: ${{ steps.install.outputs.install-dir }}
+runs:
+  using: composite
+  steps:
+    - id: install
+      shell: bash
+      env:
+        TOOL_SELECTION: ${{ inputs.tools }}
+        INSTALL_DIR: ${{ inputs.install-dir }}
+        WITH_DEPS: ${{ inputs.with-deps }}
+      run: |
+        set -euo pipefail
+        if [ -n "$INSTALL_DIR" ]; then
+          target="$INSTALL_DIR"
+        else
+          target="$HOME/.local/share/madmallard/design-toolkit"
+        fi
+        args=(--tools "$TOOL_SELECTION" --dest "$target")
+        if [ "$WITH_DEPS" = "true" ]; then args+=(--with-deps); fi
+        python "${{ github.action_path }}/../../scripts/install_design_toolkit.py" "${args[@]}"
+        echo "config-path=$target/mcp-servers.json" >> "$GITHUB_OUTPUT"
+        echo "install-dir=$target" >> "$GITHUB_OUTPUT"

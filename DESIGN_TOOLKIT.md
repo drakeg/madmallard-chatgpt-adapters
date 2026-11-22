@@ -56,3 +56,16 @@ Core search and MCP behavior use the npm package. Optional browser capture requi
 ## Uninstall
 
 Remove only the installation directory you selected. Remove optional MCP entries from each agent's configuration separately. This does not touch GitHub repositories, other agents, or unrelated local data.
+
+
+### Design Scope MCP compatibility
+
+Design Scope's pinned upstream source uses `mcp.server.fastmcp`, which is only
+available with the Python MCP SDK 1.x API. The installer constrains `mcp>=1,<2`
+to keep the original read-only tool functional. Installation refuses an existing
+virtual environment created with a different Python major/minor version instead
+of silently using the wrong interpreter. Move that old environment aside before
+reinstalling (do not delete it if it holds user customizations).
+
+On a Mac where `python3` is still Apple's 3.9, install a supported Python
+version and invoke the installer explicitly with `python3.13`.

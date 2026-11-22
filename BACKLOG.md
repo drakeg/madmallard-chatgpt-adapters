@@ -14,3 +14,6 @@
 - [ ] OpenSEO: resolve local standalone runtime lease/storage startup failure, verify account creation and `/api/health`.
 - [ ] OpenSEO: connect and verify the ChatGPT app or authenticated HTTPS MCP endpoint; validate a limited real SEO workflow with provider credentials only when authorized.
 - [ ] OpenSEO: keep personal plugin releases synchronized with this version-controlled skill.
+
+- [ ] Mobbin: validate authorized connection from ChatGPT and reference research across screens, flows, and sections.
+- [ ] Mobbin: add practical design-reference acceptance checks to a real Mad Mallard UI implementation.

@@ -24,3 +24,8 @@
 - [x] Document personal plugin link, local Docker configuration, limitations, and credential hygiene.
 - [ ] Repair standalone Docker runtime startup and verify health endpoint and admin login.
 - [ ] Validate actual OpenSEO research from an authorized site with connected provider access.
+
+## Sprint 4 — Mobbin design research adapter
+- [x] Document official Mobbin ChatGPT integration and upstream skills.
+- [x] Add original reusable design research workflow for Mad Mallard SMB projects.
+- [ ] Verify OAuth-enabled search against a real product design task.

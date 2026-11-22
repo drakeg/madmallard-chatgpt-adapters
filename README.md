@@ -11,6 +11,7 @@ Reusable, version-controlled integration instructions for ChatGPT conversations 
 
 | Adapter | Purpose | Upstream |
 | --- | --- | --- |
+| [OpenSEO](adapters/open-seo/ADAPTER.md) | SEO research, audits, and SMB optimization workflows | [every-app/open-seo](https://github.com/every-app/open-seo) |
 | [HyperFrames](adapters/hyperframes/ADAPTER.md) | Editable HTML-to-video production and local MP4 rendering | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
 | [Scroll Craft](adapters/scroll-craft/ADAPTER.md) | Premium scroll-driven websites, UI design, browser verification | [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft) |
 

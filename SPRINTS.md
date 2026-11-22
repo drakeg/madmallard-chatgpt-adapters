@@ -18,3 +18,9 @@
 - [x] Add reproducible HyperFrames installer and ChatGPT usage instructions.
 - [x] Install and verify nine upstream skills on connected macOS host.
 - [ ] Validate a real HyperFrames render in a project.
+
+## Sprint 3 — OpenSEO adapter
+- [x] Add a source-attributed reusable OpenSEO skill and ChatGPT usage guide.
+- [x] Document personal plugin link, local Docker configuration, limitations, and credential hygiene.
+- [ ] Repair standalone Docker runtime startup and verify health endpoint and admin login.
+- [ ] Validate actual OpenSEO research from an authorized site with connected provider access.

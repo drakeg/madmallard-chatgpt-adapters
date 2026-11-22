@@ -7,3 +7,6 @@
 5. P2: Add adapter packaging checks and source-code licensing checks.
 6. P2: Explore official ChatGPT app integration patterns if the product exposes a supported installation interface.
 7. P3: Improve discoverability, examples, and release notes as the library grows.
+
+- [ ] Add automated HyperFrames sample render smoke test (only if dependencies available in CI).
+- [ ] Review upstream HyperFrames releases and update pinned version when tested.

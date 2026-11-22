@@ -25,3 +25,9 @@ Updates: `git -C ~/.local/share/madmallard/scroll-craft pull --ff-only`. Audit c
 Open [the adapter](adapters/scroll-craft/ADAPTER.md), attach or paste its content into the chat, and ask ChatGPT to follow the upstream skill. The current chat can use it without a global installation, provided the necessary connected coding tools are available.
 
 For persistent behavior in future chats, optionally add a *short reference instruction* to your ChatGPT Custom Instructions, but this cannot guarantee external URLs will be fetched or that a third-party skill executes automatically. Never store API credentials in instructions.
+
+## HyperFrames (global for local supported agents)
+
+Run `bash scripts/install-hyperframes.sh`. It checks Node.js 22+ and FFmpeg, installs the nine upstream release-tagged skills in user-level directories for supported agents, and adds non-destructive Codex symlinks. It uses `HYPERFRAMES_VERSION` (default 0.9.80) to pin a tested installer version; audit upstream before changing.
+
+Verify with `npx --yes hyperframes@0.9.80 skills check`. To use in ChatGPT, open [the adapter](adapters/hyperframes/ADAPTER.md) in the relevant conversation. There is no GitHub-skill-to-all-ChatGPT-chats installation mechanism supplied by this installer.

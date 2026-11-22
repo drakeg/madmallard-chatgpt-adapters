@@ -134,8 +134,19 @@ def install(selected: list[str], prefix: Path, dry_run: bool, with_deps: bool) -
                     "Scripts/python.exe" if os.name == "nt" else "bin/python"
                 )
                 run([sys.executable, "-m", "venv", str(prefix / tool / ".venv")], dry_run)
+                if not dry_run and python.is_file():
+                    actual = subprocess.check_output([
+                        str(python), "-c",
+                        "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')"
+                    ], text=True).strip()
+                    expected = f"{sys.version_info.major}.{sys.version_info.minor}"
+                    if actual != expected:
+                        raise RuntimeError(
+                            f"Existing {python.parent.parent} uses Python {actual}, expected {expected}. "
+                            "Back up and relocate that virtual environment, then rerun the installer."
+                        )
                 run([str(python), "-m", "pip", "install", "-r",
-                     str(prefix / tool / "requirements.txt")], dry_run)
+                     str(prefix / tool / "requirements.txt"), "mcp>=1,<2"], dry_run)
             if tool == "flowscope" and with_deps:
                 npm = shutil.which("npm") or "npm"
                 run([npm, "ci", "--omit=dev", "--ignore-scripts", "--no-audit", "--no-fund"],

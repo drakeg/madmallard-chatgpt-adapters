@@ -33,3 +33,9 @@ class InstallerTests(unittest.TestCase):
             with patch.object(sys, "version_info", (3,9,6)):
                 with self.assertRaisesRegex(RuntimeError, "Python 3.11"):
                     install(["design-scope"], Path(folder)/"target", False, True)
+
+
+    def test_compatible_mcp_dependency_constraint_in_installer(self):
+        from pathlib import Path
+        path = Path(__file__).resolve().parents[1] / "scripts" / "install_design_toolkit.py"
+        self.assertIn('"mcp>=1,<2"', path.read_text())

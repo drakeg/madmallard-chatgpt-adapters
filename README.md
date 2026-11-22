@@ -11,6 +11,9 @@ Reusable, version-controlled integration instructions for ChatGPT conversations 
 
 | Adapter | Purpose | Upstream |
 | --- | --- | --- |
+| [Mobbin](adapters/mobbin/ADAPTER.md) | UI/UX reference research for screens, flows and website sections | [mobbin/skills](https://github.com/mobbin/skills) |
+| [OpenSEO](adapters/open-seo/ADAPTER.md) | SEO research, audits, and SMB optimization workflows | [every-app/open-seo](https://github.com/every-app/open-seo) |
+| [HyperFrames](adapters/hyperframes/ADAPTER.md) | Editable HTML-to-video production and local MP4 rendering | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
 | [Scroll Craft](adapters/scroll-craft/ADAPTER.md) | Premium scroll-driven websites, UI design, browser verification | [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft) |
 | [Awwwards MCP](adapters/awwwards/ADAPTER.md) | Creative web references and motion inspection | [Gsta/awwwards-mcp](https://github.com/Gsta/awwwards-mcp) |
 | [Screenshots Design Inspiration](adapters/screenshots/ADAPTER.md) | Real app screenshots and patterns | [joesteinkamp/screenshots-design-inspiration](https://github.com/joesteinkamp/screenshots-design-inspiration) |
@@ -27,7 +30,7 @@ Open or attach the adapter to the relevant ChatGPT conversation, then ask it to 
 
 ## Local coding-agent installation
 
-See [INSTALL.md](INSTALL.md). A non-destructive script installs the original Scroll Craft skill for compatible local agent skill directories, including Codex and Claude Code. The upstream Node, FFmpeg, Playwright, and Chrome tools are still required for full verification; generation services are optional and may incur charges.
+See [INSTALL.md](INSTALL.md). Non-destructive scripts install HyperFrames and the original Scroll Craft skill for compatible local agent skill directories, including Codex and Claude Code. The upstream Node, FFmpeg, Playwright, and Chrome tools are still required for full verification; generation services are optional and may incur charges.
 
 ## Development standards
 

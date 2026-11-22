@@ -17,3 +17,7 @@
 
 - [ ] Mobbin: validate authorized connection from ChatGPT and reference research across screens, flows, and sections.
 - [ ] Mobbin: add practical design-reference acceptance checks to a real Mad Mallard UI implementation.
+
+- P0: Verify three supported MCP server startup handshakes; fix any CI and platform issues
+- P1: Add non-destructive installation registration for local Codex/Claude/Cursor clients
+- P1: Document vendor-media and use-restriction considerations per source

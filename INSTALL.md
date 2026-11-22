@@ -37,3 +37,7 @@ Verify with `npx --yes hyperframes@0.9.80 skills check`. To use in ChatGPT, open
 Use the [OpenSEO adapter](adapters/open-seo/ADAPTER.md) or its [skill instructions](adapters/open-seo/SKILL.md). The separately created private [Mad Mallard OpenSEO plugin](https://chatgpt.com/plugins/plugins_6b02654f88148191bb3f365727809bc2) stores the workflow at the ChatGPT account level; repository edits require a plugin update to propagate.
 
 For live SEO data, connect the official OpenSEO ChatGPT app or an authenticated remote MCP endpoint. The local Docker instance is not yet verified healthy; inspect logs and the health endpoint before use. Never commit API credentials or expose localhost services directly to the public internet.
+
+## More design tools
+
+See [DESIGN_TOOLKIT.md](DESIGN_TOOLKIT.md) for the cross-platform installer and reusable GitHub Actions for Awwwards MCP, Screenshots Design Inspiration, Design Scope, Flowscope, and Scroll Craft.

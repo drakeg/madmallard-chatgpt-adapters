@@ -29,3 +29,10 @@
 - [x] Document official Mobbin ChatGPT integration and upstream skills.
 - [x] Add original reusable design research workflow for Mad Mallard SMB projects.
 - [ ] Verify OAuth-enabled search against a real product design task.
+
+## Sprint 5 — Unified design toolkit
+- [x] Keep this repository as the canonical GitHub Actions and adapter library
+- [x] Add five reusable setup actions and a cross-platform installer
+- [x] Add source pinning, setup docs, and platform tests
+- [ ] Validate real installations and agent handshakes on supported machines
+- [ ] Merge after all checks pass and tag first tested release

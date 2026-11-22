@@ -10,3 +10,6 @@ Version and tagged release will be recorded when verified. Do not claim a releas
 - Unreleased: Add HyperFrames adapter, nine-skill installation and Codex discovery links.
 
 - Unreleased: Added OpenSEO skill and adapter instructions, including link to the private account-scoped ChatGPT plugin and known Docker startup limitations.
+
+## Unreleased — unified design toolkit
+- Added reusable composite GitHub Actions and pinned cross-platform installers for Awwwards, Screenshots, Design Scope, Flowscope, Scroll Craft.

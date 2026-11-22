@@ -1,0 +1,26 @@
+name: Setup flowscope for Mad Mallard agents
+description: Install the pinned flowscope reference/tool in a user-writable location
+branding:
+  icon: layers
+  color: green
+inputs:
+  install-dir:
+    description: User-writable install directory (default ~/.local/share/madmallard/design-toolkit)
+    required: false
+    default: ''
+outputs:
+  config-path:
+    description: MCP configuration JSON (only lists MCP-capable services)
+    value: ${{ steps.install.outputs.config-path }}
+runs:
+  using: composite
+  steps:
+    - id: install
+      shell: bash
+      env:
+        INSTALL_DIR: ${{ inputs.install-dir }}
+      run: |
+        set -euo pipefail
+        dest="${INSTALL_DIR:-$HOME/.local/share/madmallard/design-toolkit}"
+        python "${{ github.action_path }}/../../scripts/install_design_toolkit.py" --tools flowscope --dest "$dest" --with-deps
+        echo "config-path=$dest/mcp-servers.json" >> "$GITHUB_OUTPUT"

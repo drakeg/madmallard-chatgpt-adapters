@@ -8,3 +8,5 @@
 Version and tagged release will be recorded when verified. Do not claim a release exists until published.
 
 - Unreleased: Add HyperFrames adapter, nine-skill installation and Codex discovery links.
+
+- Unreleased: Added OpenSEO skill and adapter instructions, including link to the private account-scoped ChatGPT plugin and known Docker startup limitations.

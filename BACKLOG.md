@@ -10,3 +10,7 @@
 
 - [ ] Add automated HyperFrames sample render smoke test (only if dependencies available in CI).
 - [ ] Review upstream HyperFrames releases and update pinned version when tested.
+
+- [ ] OpenSEO: resolve local standalone runtime lease/storage startup failure, verify account creation and `/api/health`.
+- [ ] OpenSEO: connect and verify the ChatGPT app or authenticated HTTPS MCP endpoint; validate a limited real SEO workflow with provider credentials only when authorized.
+- [ ] OpenSEO: keep personal plugin releases synchronized with this version-controlled skill.

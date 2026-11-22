@@ -1,0 +1,22 @@
+name: Validate adapters
+on:
+  push:
+  pull_request:
+jobs:
+  docs-and-installers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify required files
+        run: |
+          test -f README.md
+          test -f AGENTS.md
+          test -f adapters/scroll-craft/ADAPTER.md
+          test -f scripts/install-scroll-craft.sh
+      - name: Shell syntax
+        run: bash -n scripts/install-scroll-craft.sh
+      - name: Basic adapter checks
+        run: |
+          grep -q 'https://github.com/nateherkai/scroll-craft' adapters/scroll-craft/ADAPTER.md
+          grep -q 'ChatGPT' adapters/scroll-craft/ADAPTER.md
+          grep -q 'global' README.md

@@ -26,3 +26,10 @@ class InstallerTests(unittest.TestCase):
             self.assertFalse(dest.exists())
             self.assertEqual(runner.call_count,11)
             self.assertEqual(len(config["mcpServers"]),3)
+
+    def test_install_rejects_python_before_side_effects(self):
+        import sys
+        with tempfile.TemporaryDirectory() as folder:
+            with patch.object(sys, "version_info", (3,9,6)):
+                with self.assertRaisesRegex(RuntimeError, "Python 3.11"):
+                    install(["design-scope"], Path(folder)/"target", False, True)

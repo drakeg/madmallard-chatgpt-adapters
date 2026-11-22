@@ -56,7 +56,9 @@ def ensure_git_checkout(dest: Path, source: str, commit: str, dry_run: bool) -> 
             changes = subprocess.check_output(
                 ["git", "-C", str(dest), "status", "--porcelain"], text=True
             )
-            if changes:
+            meaningful = [line for line in changes.splitlines()
+                          if line[3:].rstrip("/") != ".venv"]
+            if meaningful:
                 raise RuntimeError(f"Refusing to overwrite local changes: {dest}")
     run(["git", "-C", str(dest), "fetch", "--depth", "1", "origin", commit], dry_run)
     run(["git", "-C", str(dest), "checkout", "--detach", commit], dry_run)

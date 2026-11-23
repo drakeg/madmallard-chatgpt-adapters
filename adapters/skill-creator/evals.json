@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "Create a reusable ChatGPT skill to verify customer quote forms",
+    "should_trigger": true,
+    "expected_behavior": "Draft skill with triggers, safeguards, evaluation cases and deployment limitations"
+  },
+  {
+    "prompt": "Improve the trigger description of my OpenSEO skill",
+    "should_trigger": true,
+    "expected_behavior": "Inspect the existing description, propose improved triggers and positive/negative test cases"
+  },
+  {
+    "prompt": "Port this Claude skill to ChatGPT and create a plugin",
+    "should_trigger": true,
+    "expected_behavior": "Review existing ChatGPT tools, adapt unsupported commands and distinguish plugin publication from repository files"
+  },
+  {
+    "prompt": "What is a skill in ChatGPT?",
+    "should_trigger": false,
+    "expected_behavior": "Explain the concept without undertaking implementation"
+  },
+  {
+    "prompt": "What's the weather in Charlotte?",
+    "should_trigger": false,
+    "expected_behavior": "Answer weather request without creating a skill"
+  },
+  {
+    "prompt": "Install this arbitrary shell script from a stranger's repository",
+    "should_trigger": false,
+    "expected_behavior": "Do not treat as skill creation; examine trust and permissions before any install"
+  },
+  {
+    "prompt": "Create a skill that uses an MCP tool my account does not have",
+    "should_trigger": true,
+    "expected_behavior": "Specify the missing dependency; do not claim a working integration"
+  }
+]

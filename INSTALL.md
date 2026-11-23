@@ -41,3 +41,7 @@ For live SEO data, connect the official OpenSEO ChatGPT app or an authenticated 
 ## More design tools
 
 See [DESIGN_TOOLKIT.md](DESIGN_TOOLKIT.md) for the cross-platform installer and reusable GitHub Actions for Awwwards MCP, Screenshots Design Inspiration, Design Scope, Flowscope, and Scroll Craft.
+
+## Skill Creator (ChatGPT)
+
+Use [the Skill Creator adapter](adapters/skill-creator/ADAPTER.md) and [skill instructions](adapters/skill-creator/SKILL.md) in Chat to develop and evaluate new skills. Static fixtures are in `adapters/skill-creator/evals.json`; run `python -m unittest discover -s tests -p 'test_skill_creator.py'`. A private [Mad Mallard Skill Creator plugin](https://chatgpt.com/plugins/plugins_6b0454d063008191bc0cd9be57ec949e) was created for this account (v0.1.0). GitHub changes do not automatically update its release. Independent ChatGPT triggering tests remain pending.

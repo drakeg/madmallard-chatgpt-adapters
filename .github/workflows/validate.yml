@@ -13,6 +13,8 @@ jobs:
           test -f AGENTS.md
           test -f adapters/scroll-craft/ADAPTER.md
           test -f scripts/install-scroll-craft.sh
+      - name: Skill Creator static tests
+        run: python3 -m unittest discover -s tests -p 'test_skill_creator.py'
       - name: Shell syntax
         run: bash -n scripts/install-scroll-craft.sh
       - name: Basic adapter checks

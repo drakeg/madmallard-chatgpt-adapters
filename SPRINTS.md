@@ -39,3 +39,11 @@
 
 - [x] Diagnose and correct Design Scope MCP 2.x incompatibility; test initialize on local Mac.
 - [ ] Confirm all three MCP initialize handshakes in GitHub Actions and merge validated fix.
+
+## Sprint 6 — Skill Creator for ChatGPT (2026-11-23)
+- [x] Review Anthropic Skill Creator workflow and existing ChatGPT creator capability.
+- [x] Add original ChatGPT-specific skill, adapter documentation and evaluation fixtures.
+- [x] Add static validation tests.
+- [ ] Verify CI and run representative live ChatGPT triggering/evaluation sessions.
+- [x] Publish private ChatGPT plugin v0.1.0 (creation confirmed by plugin service).
+- [ ] Validate independent skill triggering and verify availability in a fresh ChatGPT session.

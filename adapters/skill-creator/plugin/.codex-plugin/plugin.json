@@ -1,0 +1,26 @@
+{
+  "name": "madmallard-skill-creator",
+  "version": "0.1.0",
+  "description": "Private ChatGPT skill for creating, evaluating, adapting and improving reusable skills and plugin workflows.",
+  "author": {
+    "name": "Greg Drake"
+  },
+  "keywords": [
+    "skill creator",
+    "skills",
+    "evals",
+    "ChatGPT",
+    "workflow"
+  ],
+  "homepage": "https://github.com/drakeg/madmallard-chatgpt-adapters",
+  "skills": "./skills",
+  "interface": {
+    "capabilities": [],
+    "category": "Developer Tools",
+    "defaultPrompt": "Use Mad Mallard Skill Creator to turn this workflow into a reusable ChatGPT skill, test its triggers, and save changes in my adapters repository.",
+    "developerName": "Greg Drake",
+    "displayName": "Mad Mallard Skill Creator",
+    "longDescription": "Create, adapt, test, and refine ChatGPT skills with clear trigger definitions, reproducible evaluations, source-controlled documentation and plugin packaging.",
+    "shortDescription": "Create and evaluate ChatGPT skills"
+  }
+}

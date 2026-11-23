@@ -26,7 +26,7 @@ No fabricated CI results. A read-only review never automatically approves or mer
 
 ## Usage
 
-`SKILL.md` contains the complete review procedure. `ADAPTER.md` explains connector requirements and differences from Claude. `evals.json` includes static review-trigger and safety cases. The GitHub repository provides source-controlled instructions, not proof that a private ChatGPT plugin has been installed.
+`SKILL.md` contains the complete review procedure. `ADAPTER.md` explains connector requirements and differences from Claude. `evals.json` includes static review-trigger and safety cases. The GitHub repository provides source-controlled instructions, and the [private ChatGPT plugin](https://chatgpt.com/plugins/plugins_6b04a01ade0481918fa81db8551d6f3e) was created at v0.1.0. Fresh-session invocation has not yet been verified.
 
 ## Attribution
 

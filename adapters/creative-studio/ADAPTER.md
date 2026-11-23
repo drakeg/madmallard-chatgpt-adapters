@@ -11,10 +11,10 @@ This is an independently written ChatGPT-focused orchestration skill, not a vend
 
 **Example:** "Use Mad Mallard Creative Studio to make an elegant SaaS homepage with a distinctive responsive design and a seed-based generative hero that can be switched off for reduced motion."
 
-**Repository files:** [SKILL.md](SKILL.md), [references/routes.md](references/routes.md), [evals.json](evals.json).
+**Private ChatGPT plugin:** https://chatgpt.com/plugins/plugins_6b047a1755a48191a398368b1fa731d0 (v0.1.0; confirmed created)\n\n**Repository files:** [SKILL.md](SKILL.md), [references/routes.md](references/routes.md), [evals.json](evals.json).
 
 ## Verification
 
 - Three existing adapter instructions inspected; integrated instructions authored.
-- Static validation and plugin publication must be verified independently.
+- ZIP integrity and manifest JSON validated locally; private ChatGPT plugin v0.1.0 created successfully. The published skill is a condensed implementation of this repository's integrated workflow.
 - Interactive browser tests, new model-trigger trials and real deployments are not implied by this repo change.

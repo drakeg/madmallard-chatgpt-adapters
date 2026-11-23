@@ -41,3 +41,7 @@ For live SEO data, connect the official OpenSEO ChatGPT app or an authenticated 
 ## More design tools
 
 See [DESIGN_TOOLKIT.md](DESIGN_TOOLKIT.md) for the cross-platform installer and reusable GitHub Actions for Awwwards MCP, Screenshots Design Inspiration, Design Scope, Flowscope, and Scroll Craft.
+
+## Skill Creator (ChatGPT)
+
+Use [the Skill Creator adapter](adapters/skill-creator/ADAPTER.md) and [skill instructions](adapters/skill-creator/SKILL.md) in Chat to develop and evaluate new skills. Static fixtures are in `adapters/skill-creator/evals.json`; run `python -m unittest discover -s tests -p 'test_skill_creator.py'`. For account-level use a private ChatGPT plugin must be created separately through supported plugin tools; a GitHub PR is not an installation.

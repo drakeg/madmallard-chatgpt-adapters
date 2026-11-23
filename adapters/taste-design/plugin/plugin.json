@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "madmallard-taste-design",
+  "version": "0.1.0",
+  "description": "Private ChatGPT design skill adapting Leonxlnx Taste Skill principles for distinctive, responsive SMB websites.",
+  "author": {
+    "name": "Greg Drake"
+  },
+  "homepage": "https://github.com/drakeg/madmallard-chatgpt-adapters",
+  "keywords": [
+    "taste",
+    "frontend design",
+    "landing pages",
+    "SMB websites",
+    "responsive UI"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Design",
+        "defaultPrompt": "Use Mad Mallard Taste Design to review and improve this website's layout, hierarchy, imagery, conversions, accessibility and responsive behavior.",
+        "developerName": "Greg Drake",
+        "displayName": "Mad Mallard Taste Design",
+        "longDescription": "Build and review distinctive business websites using Taste Skill-inspired layout, typography, imagery, motion and responsive quality checks, adapted to available ChatGPT tooling.",
+        "shortDescription": "Distinctive website design and review"
+      }
+    }
+  }
+}

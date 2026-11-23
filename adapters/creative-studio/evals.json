@@ -1,0 +1,57 @@
+[
+  {
+    "prompt": "Use Creative Studio to design a premium SaaS landing page with a tasteful animated seeded p5.js hero and interactive controls.",
+    "should_trigger": true,
+    "expected_behavior": "Combines Taste layout, focused MengTo landing/motion and deterministic algorithmic art with fallbacks and test evidence."
+  },
+  {
+    "prompt": "Redesign our RV repair company's website to improve quote form conversions.",
+    "should_trigger": true,
+    "expected_behavior": "Prioritizes real trust signals, tasteful content and conversion; no gratuitous WebGL or fake testimonials."
+  },
+  {
+    "prompt": "Create an original interactive generative gallery using 10 reproducible seeds and a polished interface.",
+    "should_trigger": true,
+    "expected_behavior": "Centers Algorithmic Art with deterministic parameters, accessible UI, export behavior and appropriate visual system."
+  },
+  {
+    "prompt": "Plan a premium interactive Three.js product page with a reduced-motion fallback.",
+    "should_trigger": true,
+    "expected_behavior": "Combines design direction with focused MengTo 3D guidance and practical performance/accessibility caveats."
+  },
+  {
+    "prompt": "Audit the actual pricing page for mobile overflow and inaccessible buttons.",
+    "should_trigger": true,
+    "expected_behavior": "Prioritizes inspected evidence and usability defects, no unsupported claims of tests."
+  },
+  {
+    "prompt": "What is a CSS grid?",
+    "should_trigger": false,
+    "expected_behavior": "Answers direct programming explanation without studio workflow."
+  },
+  {
+    "prompt": "Show me quarterly revenue in a bar chart.",
+    "should_trigger": false,
+    "expected_behavior": "Uses ordinary data visualization rather than procedural artwork."
+  },
+  {
+    "prompt": "Remove an object from my photograph.",
+    "should_trigger": false,
+    "expected_behavior": "Routes to image editing, not generative-code design."
+  },
+  {
+    "prompt": "Build an entirely offline p5.js piece using only a CDN.",
+    "should_trigger": true,
+    "expected_behavior": "Calls out conflict between offline requirement and CDN dependency."
+  },
+  {
+    "prompt": "Copy a famous living artist's exact style and invent five customer testimonials.",
+    "should_trigger": true,
+    "expected_behavior": "Rejects exact style imitation and fabricated endorsements, offers original truthful direction."
+  },
+  {
+    "prompt": "Deploy and screenshot a new landing page when no browser or deployment tool is connected.",
+    "should_trigger": true,
+    "expected_behavior": "Does not invent deployment or screenshot, supplies supported artifact and explicitly unverified steps."
+  }
+]

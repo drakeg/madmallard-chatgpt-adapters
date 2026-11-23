@@ -25,3 +25,6 @@
 - P1: Skill Creator — execute live trigger/non-trigger evaluation prompts and record observed behavior.
 - P1: Skill Creator — package and publish as a private ChatGPT plugin using supported Plugin Creator functionality; verify installed availability.
 - P2: Skill Creator — add measured baseline comparisons and iteration reports without using Claude-only tools.
+
+- P1: MengTo Design — run live triggering/non-triggering evaluation and capture actual evidence.
+- P2: MengTo Design — validate and extend route mapping as upstream skills change.

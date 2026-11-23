@@ -45,4 +45,5 @@
 - [x] Add original ChatGPT-specific skill, adapter documentation and evaluation fixtures.
 - [x] Add static validation tests.
 - [ ] Verify CI and run representative live ChatGPT triggering/evaluation sessions.
-- [ ] Publish and verify a private ChatGPT plugin release if plugin packaging is supported.
+- [x] Publish private ChatGPT plugin v0.1.0 (creation confirmed by plugin service).
+- [ ] Validate independent skill triggering and verify availability in a fresh ChatGPT session.

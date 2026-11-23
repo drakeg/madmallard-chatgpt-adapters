@@ -36,3 +36,6 @@
 - [x] Add source pinning, setup docs, and platform tests
 - [ ] Validate real installations and agent handshakes on supported machines
 - [ ] Merge after all checks pass and tag first tested release
+
+- [x] Diagnose and correct Design Scope MCP 2.x incompatibility; test initialize on local Mac.
+- [ ] Confirm all three MCP initialize handshakes in GitHub Actions and merge validated fix.

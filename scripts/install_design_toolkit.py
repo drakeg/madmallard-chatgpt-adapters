@@ -56,7 +56,9 @@ def ensure_git_checkout(dest: Path, source: str, commit: str, dry_run: bool) -> 
             changes = subprocess.check_output(
                 ["git", "-C", str(dest), "status", "--porcelain"], text=True
             )
-            if changes:
+            meaningful = [line for line in changes.splitlines()
+                          if line[3:].rstrip("/") != ".venv"]
+            if meaningful:
                 raise RuntimeError(f"Refusing to overwrite local changes: {dest}")
     run(["git", "-C", str(dest), "fetch", "--depth", "1", "origin", commit], dry_run)
     run(["git", "-C", str(dest), "checkout", "--detach", commit], dry_run)
@@ -132,8 +134,19 @@ def install(selected: list[str], prefix: Path, dry_run: bool, with_deps: bool) -
                     "Scripts/python.exe" if os.name == "nt" else "bin/python"
                 )
                 run([sys.executable, "-m", "venv", str(prefix / tool / ".venv")], dry_run)
+                if not dry_run and python.is_file():
+                    actual = subprocess.check_output([
+                        str(python), "-c",
+                        "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')"
+                    ], text=True).strip()
+                    expected = f"{sys.version_info.major}.{sys.version_info.minor}"
+                    if actual != expected:
+                        raise RuntimeError(
+                            f"Existing {python.parent.parent} uses Python {actual}, expected {expected}. "
+                            "Back up and relocate that virtual environment, then rerun the installer."
+                        )
                 run([str(python), "-m", "pip", "install", "-r",
-                     str(prefix / tool / "requirements.txt")], dry_run)
+                     str(prefix / tool / "requirements.txt"), "mcp>=1,<2"], dry_run)
             if tool == "flowscope" and with_deps:
                 npm = shutil.which("npm") or "npm"
                 run([npm, "ci", "--omit=dev", "--ignore-scripts", "--no-audit", "--no-fund"],

@@ -51,3 +51,4 @@ jobs:
             assert Path(config["mcpServers"][key]["args"][0]).is_file()
           print("Verified 3 MCP config entries, 2 executable Node servers and pinned sources")
           PY
+          python scripts/smoke_mcp.py --config "$CONFIG_FILE"

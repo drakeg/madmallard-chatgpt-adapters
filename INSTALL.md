@@ -44,4 +44,4 @@ See [DESIGN_TOOLKIT.md](DESIGN_TOOLKIT.md) for the cross-platform installer and 
 
 ## Skill Creator (ChatGPT)
 
-Use [the Skill Creator adapter](adapters/skill-creator/ADAPTER.md) and [skill instructions](adapters/skill-creator/SKILL.md) in Chat to develop and evaluate new skills. Static fixtures are in `adapters/skill-creator/evals.json`; run `python -m unittest discover -s tests -p 'test_skill_creator.py'`. For account-level use a private ChatGPT plugin must be created separately through supported plugin tools; a GitHub PR is not an installation.
+Use [the Skill Creator adapter](adapters/skill-creator/ADAPTER.md) and [skill instructions](adapters/skill-creator/SKILL.md) in Chat to develop and evaluate new skills. Static fixtures are in `adapters/skill-creator/evals.json`; run `python -m unittest discover -s tests -p 'test_skill_creator.py'`. A private [Mad Mallard Skill Creator plugin](https://chatgpt.com/plugins/plugins_6b0454d063008191bc0cd9be57ec949e) was created for this account (v0.1.0). GitHub changes do not automatically update its release. Independent ChatGPT triggering tests remain pending.

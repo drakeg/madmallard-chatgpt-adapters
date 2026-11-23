@@ -20,4 +20,4 @@ Version and tagged release will be recorded when verified. Do not claim a releas
 
 - Added an original ChatGPT-focused skill creation workflow inspired by Anthropic's Apache-2.0 Skill Creator.
 - Added trigger and non-trigger evaluation fixtures and Python standard-library static tests.
-- Plugin publication and live trigger tests remain unverified until separately executed.
+- Private ChatGPT plugin v0.1.0 created: https://chatgpt.com/plugins/plugins_6b0454d063008191bc0cd9be57ec949e. Live trigger tests remain unverified.

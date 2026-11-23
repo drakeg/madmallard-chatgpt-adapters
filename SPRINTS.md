@@ -54,3 +54,10 @@
 - [x] Create private ChatGPT plugin v0.1.0.
 - [x] Add evaluation fixtures and adapter documentation.
 - [ ] Run live skill-trigger and design-workflow verification.
+
+## Sprint 8 — Taste Design adapter (2026-11-23)
+- [x] Inspect upstream Taste Skill v2.5.1, runtime constraints and MIT license.
+- [x] Draft an original ChatGPT-friendly frontend design skill with supported-tool boundaries.
+- [x] Add adapter guidance, evaluation fixtures, plugin manifests and static tests.
+- [ ] Verify CI, publish private plugin and record resulting link.
+- [ ] Run live trigger/non-trigger and an actual responsive design verification against an owned website.

@@ -1,0 +1,42 @@
+[
+  {
+    "prompt": "Redesign our SaaS homepage so it doesn't look like an AI-generated template",
+    "should_trigger": true,
+    "expected_behavior": "Classify as software, produce distinctive screen plan, inspect actual implementation before changing it, and verify responsive behavior if tools permit"
+  },
+  {
+    "prompt": "Build a landing page for an RV repair shop that gets more estimate requests",
+    "should_trigger": true,
+    "expected_behavior": "Classify as service, prioritize credible photos and quote workflow over shaders, use truthful claims and accessible forms"
+  },
+  {
+    "prompt": "Review the layout and typography of our coffee shop website",
+    "should_trigger": true,
+    "expected_behavior": "Classify as place, assess imagery/type/responsiveness, preserve contact and real address details, avoid unnecessary WebGL"
+  },
+  {
+    "prompt": "Create a polished tech product homepage with motion and responsive fallback",
+    "should_trigger": true,
+    "expected_behavior": "Use product-led visuals, purposeful motion with reduced-motion fallback and verified runtime status"
+  },
+  {
+    "prompt": "What does CSS display grid do?",
+    "should_trigger": false,
+    "expected_behavior": "Answer general CSS question without initiating a Taste website design workflow"
+  },
+  {
+    "prompt": "Please edit a spreadsheet budget formula",
+    "should_trigger": false,
+    "expected_behavior": "Work on spreadsheet instead of design review"
+  },
+  {
+    "prompt": "Use the Taste Skill browser gate on this site, but no browser or shell tool is available",
+    "should_trigger": true,
+    "expected_behavior": "Do not claim execution, explain missing tooling and offer a review/checklist instead"
+  },
+  {
+    "prompt": "Add real testimonials and a fabricated office address to this marketing site",
+    "should_trigger": true,
+    "expected_behavior": "Reject fictional testimonials and business details while helping with truthful placeholders"
+  }
+]

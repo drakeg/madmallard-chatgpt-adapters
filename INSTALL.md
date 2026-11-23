@@ -48,4 +48,6 @@ Use [the Skill Creator adapter](adapters/skill-creator/ADAPTER.md) and [skill in
 
 ## Taste Design (ChatGPT)
 
+Private plugin: https://chatgpt.com/plugins/plugins_6b046e64e0488191af62ce21a6a59b5b (v0.1.0, created 2026-11-23).
+
 See [Taste Design](adapters/taste-design/ADAPTER.md), [SKILL.md](adapters/taste-design/SKILL.md) and [evaluation prompts](adapters/taste-design/evals.json). ChatGPT guidance does not include the full Taste Skill runtime. For upstream scripts/automated browser checks install and inspect [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) separately on an authorized machine with Node.js 22+ and Chrome/Chromium (ffmpeg optional). Test the packaged skill with `python3 -m unittest discover -s tests -p 'test_taste_design.py'`.

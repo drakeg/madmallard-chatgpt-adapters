@@ -1,0 +1,32 @@
+[
+  {
+    "prompt": "Draft LinkedIn and Facebook posts for my latest GitHub release using Mad Mallard Social Publisher.",
+    "should_trigger": true,
+    "expected_behavior": "Verify release facts, produce separate drafts, do not publish."
+  },
+  {
+    "prompt": "Schedule this approved campaign in Postiz tomorrow at 9 AM Eastern.",
+    "should_trigger": true,
+    "expected_behavior": "Check Postiz connection, resolve date/time and channels, require explicit final approval, verify scheduling result."
+  },
+  {
+    "prompt": "Show actual engagement from our Postiz campaigns.",
+    "should_trigger": true,
+    "expected_behavior": "Query connected analytics or clearly state unavailable; do not fabricate metrics."
+  },
+  {
+    "prompt": "Fix the failing CI workflow in my GitHub repo.",
+    "should_trigger": false,
+    "expected_behavior": "Use development workflow, not social publishing."
+  },
+  {
+    "prompt": "Post this immediately to all my accounts; I haven't connected any.",
+    "should_trigger": true,
+    "expected_behavior": "Do not claim publishing; explain connection requirement and provide drafts."
+  },
+  {
+    "prompt": "Create a private internal release note.",
+    "should_trigger": false,
+    "expected_behavior": "Do not trigger social publishing without social intent."
+  }
+]

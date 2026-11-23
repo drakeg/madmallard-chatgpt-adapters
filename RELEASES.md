@@ -15,3 +15,9 @@ Version and tagged release will be recorded when verified. Do not claim a releas
 - Added reusable composite GitHub Actions and pinned cross-platform installers for Awwwards, Screenshots, Design Scope, Flowscope, Scroll Craft.
 
 - Pin Design Scope to the MCP 1.x protocol API and verify all three MCP initialize handshakes in CI.
+
+## Unreleased — ChatGPT Skill Creator adapter
+
+- Added an original ChatGPT-focused skill creation workflow inspired by Anthropic's Apache-2.0 Skill Creator.
+- Added trigger and non-trigger evaluation fixtures and Python standard-library static tests.
+- Plugin publication and live trigger tests remain unverified until separately executed.

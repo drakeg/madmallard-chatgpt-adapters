@@ -13,3 +13,5 @@ Version and tagged release will be recorded when verified. Do not claim a releas
 
 ## Unreleased — unified design toolkit
 - Added reusable composite GitHub Actions and pinned cross-platform installers for Awwwards, Screenshots, Design Scope, Flowscope, Scroll Craft.
+
+- Pin Design Scope to the MCP 1.x protocol API and verify all three MCP initialize handshakes in CI.

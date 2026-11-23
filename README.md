@@ -11,6 +11,7 @@ Reusable, version-controlled integration instructions for ChatGPT conversations 
 
 | Adapter | Purpose | Upstream |
 | --- | --- | --- |
+| [OpenDashboards](adapters/opendashboards/README.md) | ChatGPT-native dashboard design, data-source mapping, refinement and secure self-hosting guidance | [thesysdev/opendashboards](https://github.com/thesysdev/opendashboards) |
 | [**Creative Studio**](adapters/creative-studio/README.md) ([private plugin](https://chatgpt.com/plugins/plugins_6b047a1755a48191a398368b1fa731d0)) | Unified tasteful web design, MengTo specialist workflows, and original algorithmic art | [Taste](https://github.com/Leonxlnx/taste-skill) · [MengTo](https://github.com/mengto/skills) · [Algorithmic Art](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art) |
 | [Taste Design](adapters/taste-design/ADAPTER.md) ([private plugin](https://chatgpt.com/plugins/plugins_6b046e64e0488191af62ce21a6a59b5b)) | Distinctive, responsive SMB website planning, frontend design and verification | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) |
 | [MengTo Design](adapters/mengto-design/ADAPTER.md) ([private plugin](https://chatgpt.com/plugins/plugins_6b0468c800448191898b86396687c2be)) | ChatGPT router for upstream UI, 3D, interaction, web design, games, video and verification skills | [mengto/skills](https://github.com/mengto/skills) |

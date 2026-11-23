@@ -47,3 +47,10 @@
 - [ ] Verify CI and run representative live ChatGPT triggering/evaluation sessions.
 - [x] Publish private ChatGPT plugin v0.1.0 (creation confirmed by plugin service).
 - [ ] Validate independent skill triggering and verify availability in a fresh ChatGPT session.
+
+## Sprint 7 — MengTo Design skill adapter (2026-11-23)
+- [x] Inspect upstream repository and MIT license.
+- [x] Package ChatGPT-specific routing skill with source links.
+- [x] Create private ChatGPT plugin v0.1.0.
+- [x] Add evaluation fixtures and adapter documentation.
+- [ ] Run live skill-trigger and design-workflow verification.

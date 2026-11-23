@@ -67,4 +67,5 @@
 - [x] Inspect upstream six review agents, command orchestration and license discrepancy.
 - [x] Implement original ChatGPT review skill, adapter docs, usage guide and evaluation fixtures.
 - [ ] Verify GitHub Actions validation and live review of an authorized sample PR.
-- [ ] Publish and verify a private ChatGPT plugin separately from repository merge.
+- [x] Publish private ChatGPT plugin v0.1.0 (creation confirmed by plugin service).
+- [ ] Verify installed plugin in a fresh session and test actual triggering.

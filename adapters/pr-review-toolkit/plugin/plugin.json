@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "madmallard-pr-review-toolkit",
+  "version": "0.1.0",
+  "description": "Evidence-first pull request code review across six targeted modes with connected GitHub tooling.",
+  "author": {
+    "name": "Greg Drake"
+  },
+  "homepage": "https://github.com/drakeg/madmallard-chatgpt-adapters",
+  "keywords": [
+    "github",
+    "pull request",
+    "code review",
+    "CI",
+    "testing"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Development",
+        "defaultPrompt": "Use Mad Mallard PR Review Toolkit to review this GitHub pull request for regressions, missing tests, silent failures and merge blockers.",
+        "developerName": "Greg Drake",
+        "displayName": "Mad Mallard PR Review Toolkit",
+        "longDescription": "Review actual GitHub pull request diffs, CI checks and repository guidance for correctness, behavioral test gaps, silent failures, type design, comment accuracy and simplification.",
+        "shortDescription": "Evidence-based GitHub pull request reviews"
+      }
+    }
+  }
+}

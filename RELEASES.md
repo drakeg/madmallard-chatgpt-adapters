@@ -23,3 +23,5 @@ Version and tagged release will be recorded when verified. Do not claim a releas
 - Private ChatGPT plugin v0.1.0 created: https://chatgpt.com/plugins/plugins_6b0454d063008191bc0cd9be57ec949e. Live trigger tests remain unverified.
 
 - Unreleased: Added MengTo Design ChatGPT skill router, private v0.1.0 plugin, source map and evaluation fixtures (2026-11-23).
+
+- Unreleased: Added Taste Design ChatGPT adapter based on Leonxlnx/taste-skill 2.5.1 (MIT), evaluation fixtures, static tests and plugin packaging; upstream runtime not bundled.

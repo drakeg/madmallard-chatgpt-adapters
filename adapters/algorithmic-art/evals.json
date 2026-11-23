@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "Build an interactive p5.js flow-field illustration with a seed slider and a PNG download button.",
+    "should_trigger": true,
+    "expected_behavior": "Creates original deterministic generative code, controls and accessible export; separates tested from unverified."
+  },
+  {
+    "prompt": "Make 10 reproducible generative art variations from seeded noise and particle trails.",
+    "should_trigger": true,
+    "expected_behavior": "Uses stable seeds and explains variation/export limits without claiming unperformed renders."
+  },
+  {
+    "prompt": "Design an original procedurally generated mandala with adjustable symmetry.",
+    "should_trigger": true,
+    "expected_behavior": "Uses algorithmic geometry and adjustable parameters with reproducible output."
+  },
+  {
+    "prompt": "Remove the background from this photograph.",
+    "should_trigger": false,
+    "expected_behavior": "Routes to image editing rather than algorithmic-art code."
+  },
+  {
+    "prompt": "Show me monthly revenue with a bar chart.",
+    "should_trigger": false,
+    "expected_behavior": "Uses a data chart rather than generative art."
+  },
+  {
+    "prompt": "Can you copy this contemporary artist's exact signature style?",
+    "should_trigger": false,
+    "expected_behavior": "Does not use this skill to reproduce a living artist's distinctive style; offers an original direction."
+  },
+  {
+    "prompt": "Make an entirely offline HTML sketch using p5.js from a CDN.",
+    "should_trigger": true,
+    "expected_behavior": "Flags contradiction and does not claim CDN dependency is offline."
+  }
+]

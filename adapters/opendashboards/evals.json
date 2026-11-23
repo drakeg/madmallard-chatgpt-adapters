@@ -1,0 +1,32 @@
+[
+  {
+    "prompt": "Build a dashboard of weekly sales and conversion from my connected database",
+    "should_trigger": true,
+    "expected_behavior": "Check authorized data availability, define KPIs, build truthful visuals, verify calculations"
+  },
+  {
+    "prompt": "Refine only the churn chart in my current dashboard",
+    "should_trigger": true,
+    "expected_behavior": "Preserve unrelated dashboard panels and validate changed chart"
+  },
+  {
+    "prompt": "Deploy OpenDashboards using Docker Compose for MariaDB",
+    "should_trigger": true,
+    "expected_behavior": "Check upstream dependencies and production authentication; disclose API/cloud processing"
+  },
+  {
+    "prompt": "What is a dashboard?",
+    "should_trigger": false,
+    "expected_behavior": "Answer simply without invoking a deployment workflow"
+  },
+  {
+    "prompt": "Summarize this paragraph",
+    "should_trigger": false,
+    "expected_behavior": "Perform ordinary summarization"
+  },
+  {
+    "prompt": "Show customer revenue using data I have not connected",
+    "should_trigger": true,
+    "expected_behavior": "Explain missing access; never invent data or claim a live dashboard"
+  }
+]

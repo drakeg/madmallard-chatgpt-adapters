@@ -45,3 +45,7 @@ See [DESIGN_TOOLKIT.md](DESIGN_TOOLKIT.md) for the cross-platform installer and 
 ## Skill Creator (ChatGPT)
 
 Use [the Skill Creator adapter](adapters/skill-creator/ADAPTER.md) and [skill instructions](adapters/skill-creator/SKILL.md) in Chat to develop and evaluate new skills. Static fixtures are in `adapters/skill-creator/evals.json`; run `python -m unittest discover -s tests -p 'test_skill_creator.py'`. A private [Mad Mallard Skill Creator plugin](https://chatgpt.com/plugins/plugins_6b0454d063008191bc0cd9be57ec949e) was created for this account (v0.1.0). GitHub changes do not automatically update its release. Independent ChatGPT triggering tests remain pending.
+
+## Taste Design (ChatGPT)
+
+See [Taste Design](adapters/taste-design/ADAPTER.md), [SKILL.md](adapters/taste-design/SKILL.md) and [evaluation prompts](adapters/taste-design/evals.json). ChatGPT guidance does not include the full Taste Skill runtime. For upstream scripts/automated browser checks install and inspect [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) separately on an authorized machine with Node.js 22+ and Chrome/Chromium (ffmpeg optional). Test the packaged skill with `python3 -m unittest discover -s tests -p 'test_taste_design.py'`.

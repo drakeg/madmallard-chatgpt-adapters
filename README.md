@@ -11,6 +11,7 @@ Reusable, version-controlled integration instructions for ChatGPT conversations 
 
 | Adapter | Purpose | Upstream |
 | --- | --- | --- |
+| [Skill Creator](adapters/skill-creator/ADAPTER.md) | ChatGPT skill design, evaluation, adaptation and plugin packaging | [anthropics/skill-creator](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator) |
 | [Mobbin](adapters/mobbin/ADAPTER.md) | UI/UX reference research for screens, flows and website sections | [mobbin/skills](https://github.com/mobbin/skills) |
 | [OpenSEO](adapters/open-seo/ADAPTER.md) | SEO research, audits, and SMB optimization workflows | [every-app/open-seo](https://github.com/every-app/open-seo) |
 | [HyperFrames](adapters/hyperframes/ADAPTER.md) | Editable HTML-to-video production and local MP4 rendering | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |

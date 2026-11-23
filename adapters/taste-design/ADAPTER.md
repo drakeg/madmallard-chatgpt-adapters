@@ -3,6 +3,7 @@
 **Upstream:** https://github.com/Leonxlnx/taste-skill  
 **Upstream skill:** `skills/taste-skill/SKILL.md`, documented as Taste Skill 2.5.1  
 **License:** MIT © 2026 Leonxlnx  
+**Private ChatGPT plugin:** https://chatgpt.com/plugins/plugins_6b046e64e0488191af62ce21a6a59b5b (v0.1.0, 2026-11-23)  
 **ChatGPT skill:** [SKILL.md](SKILL.md) · **Test prompts:** [evals.json](evals.json)
 
 ## What is adapted
@@ -24,6 +25,8 @@ Best for business sites, SaaS/product marketing pages, and conversion-oriented l
 ## Evaluation
 
 `evals.json` includes positive, negative and missing-capability prompts. The local static test checks package structure, attribution and fixture schema. Independent model-triggering and end-to-end browser tests must be recorded separately.
+
+The private plugin v0.1.0 uses a condensed workflow, while the repository retains extended implementation guidance. Future plugin updates should bring these into exact alignment.
 
 ## Source maintenance
 

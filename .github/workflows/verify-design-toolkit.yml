@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: '3.15'
       - name: Validate Python and manifest generation
         run: python -m unittest discover -s tests -v
       - name: Verify cross-platform dry-run
@@ -30,7 +30,7 @@ jobs:
           node-version: '22'
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: '3.15'
       - uses: ./actions/setup-design-toolkit
         id: toolkit
         with:

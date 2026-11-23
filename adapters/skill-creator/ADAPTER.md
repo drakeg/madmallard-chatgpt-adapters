@@ -1,6 +1,7 @@
 # Skill Creator — ChatGPT adapter
 
 **Upstream:** https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator (Apache-2.0)  
+**Private ChatGPT plugin:** https://chatgpt.com/plugins/plugins_6b0454d063008191bc0cd9be57ec949e (v0.1.0, created 2026-11-23)  
 **ChatGPT workflow:** [SKILL.md](SKILL.md)  
 **Evaluation examples:** [evals.json](evals.json)
 
@@ -16,7 +17,7 @@ In a conversation, reference or attach [SKILL.md](SKILL.md), then say:
 
 > Use my Mad Mallard Skill Creator adapter to turn this workflow into a ChatGPT skill. Check for an existing equivalent, draft the skill, create eval prompts, validate what you can, store changes in drakeg/madmallard-chatgpt-adapters, and open a PR.
 
-For persistent availability, create or update a **private ChatGPT plugin** with the supported Plugin Creator tools. The repository is the source of truth, but GitHub commits do not update an installed plugin. Verify the plugin actually appears in ChatGPT after publishing.
+A **private ChatGPT plugin** was created at the link above. The repository is the source of truth, but GitHub commits do not update the installed plugin; future changes require a plugin release update. Plugin creation is verified; independent end-to-end skill triggering remains to be tested.
 
 ## Acceptance checks
 

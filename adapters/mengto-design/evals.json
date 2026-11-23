@@ -1,0 +1,32 @@
+[
+  {
+    "prompt": "Apply MengTo's landing-page skill to make a service quote-form verification landing page",
+    "should_trigger": true,
+    "expected_behavior": "Select web-design/landing-page, inspect upstream, produce copy and structure with supported proof only"
+  },
+  {
+    "prompt": "Make a SaaS pricing page with three tiers for a small business app",
+    "should_trigger": true,
+    "expected_behavior": "Route to pricing-page, clearly label proposed prices as hypotheses"
+  },
+  {
+    "prompt": "Use MengTo to build a Three.js water scene and test it",
+    "should_trigger": true,
+    "expected_behavior": "Read the narrow 3D skill and distinguish specification from tested, rendered app"
+  },
+  {
+    "prompt": "Audit whether this UI improvement works",
+    "should_trigger": true,
+    "expected_behavior": "Use audit-verify workflow and separate tested evidence from inference"
+  },
+  {
+    "prompt": "What's the weather in Charlotte?",
+    "should_trigger": false,
+    "expected_behavior": "Do not invoke design workflows"
+  },
+  {
+    "prompt": "Send a response to my customer about a refund",
+    "should_trigger": false,
+    "expected_behavior": "Do not invoke design workflows"
+  }
+]

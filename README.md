@@ -11,6 +11,7 @@ Reusable, version-controlled integration instructions for ChatGPT conversations 
 
 | Adapter | Purpose | Upstream |
 | --- | --- | --- |
+| [MengTo Design](adapters/mengto-design/ADAPTER.md) ([private plugin](https://chatgpt.com/plugins/plugins_6b0468c800448191898b86396687c2be)) | ChatGPT router for upstream UI, 3D, interaction, web design, games, video and verification skills | [mengto/skills](https://github.com/mengto/skills) |
 | [Skill Creator](adapters/skill-creator/ADAPTER.md) ([private plugin](https://chatgpt.com/plugins/plugins_6b0454d063008191bc0cd9be57ec949e)) | ChatGPT skill design, evaluation, adaptation and plugin packaging | [anthropics/skill-creator](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator) |
 | [Mobbin](adapters/mobbin/ADAPTER.md) | UI/UX reference research for screens, flows and website sections | [mobbin/skills](https://github.com/mobbin/skills) |
 | [OpenSEO](adapters/open-seo/ADAPTER.md) | SEO research, audits, and SMB optimization workflows | [every-app/open-seo](https://github.com/every-app/open-seo) |

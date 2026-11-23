@@ -2,6 +2,7 @@
 
 **Upstream:** https://github.com/anthropics/skills/tree/main/skills/algorithmic-art  
 **Upstream license:** Apache License 2.0 (see upstream `LICENSE.txt`)  
+**Private ChatGPT plugin:** https://chatgpt.com/plugins/plugins_6b046f264bf881919e591f0fb468c3a2 (v0.1.0)  
 **Implementation:** [SKILL.md](SKILL.md) · [evals.json](evals.json)
 
 This independently written ChatGPT-focused adapter preserves the useful workflow from the upstream skill: concept/philosophy, reproducible seeded p5.js artwork, interactive parameters, variations, and PNG export. It intentionally **does not copy the upstream viewer template or Anthropic branding**.
@@ -15,6 +16,6 @@ Execution depends on the currently available browser/file tools. A CDN-hosted p5
 - [x] Original skill instructions and upstream license reviewed
 - [ ] Independent ChatGPT model-trigger tests executed
 - [ ] HTML browser smoke test executed with generated artwork
-- [ ] Persistent ChatGPT plugin creation confirmed
+- [x] Private ChatGPT plugin created successfully (v0.1.0; independent model-trigger validation still pending)
 
 Maintain this adapter in `drakeg/madmallard-chatgpt-adapters` and track changes through reviewable PRs.

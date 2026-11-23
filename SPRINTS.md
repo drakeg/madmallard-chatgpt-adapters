@@ -62,3 +62,9 @@
 - [x] Create private ChatGPT plugin v0.1.0 and record resulting link.
 - [ ] Verify CI and run fresh-session plugin invocation.
 - [ ] Run live trigger/non-trigger and an actual responsive design verification against an owned website.
+
+## Sprint 9 — ChatGPT PR Review Toolkit (2026-11-23)
+- [x] Inspect upstream six review agents, command orchestration and license discrepancy.
+- [x] Implement original ChatGPT review skill, adapter docs, usage guide and evaluation fixtures.
+- [ ] Verify GitHub Actions validation and live review of an authorized sample PR.
+- [ ] Publish and verify a private ChatGPT plugin separately from repository merge.

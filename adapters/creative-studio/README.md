@@ -20,7 +20,8 @@
 ```mermaid
 flowchart TD
     A["Your creative brief"] --> B["Taste Design<br/>Visual identity & user experience"]
-    B --> C["MengTo Design<br/>Focused specialist technique"]
+    B --> O["Owl Designer<br/>UX research, systems & QA when needed"]
+    O --> C["MengTo Design<br/>Focused specialist technique"]
     C --> D{"Would algorithmic art<br/>improve the experience?"}
     D -- Yes --> E["Algorithmic Art<br/>Seeded, interactive visual"]
     D -- No --> F["Keep the design focused"]

@@ -11,6 +11,7 @@ Reusable, version-controlled integration instructions for ChatGPT conversations 
 
 | Adapter | Purpose | Upstream |
 | --- | --- | --- |
+| [Terraform Skill](adapters/terraform-skill/README.md) | Terraform and OpenTofu development, security, state and CI validation | [antonbabenko/terraform-skill](https://github.com/antonbabenko/terraform-skill) |
 | [PR Review Toolkit](adapters/pr-review-toolkit/README.md) ([private plugin](https://chatgpt.com/plugins/plugins_6b04a01ade0481918fa81db8551d6f3e)) | Evidence-based GitHub PR review across code, tests, silent failures, types, comments and simplification | [Anthropic PR Review Toolkit](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/pr-review-toolkit) |
 | [OpenDashboards](adapters/opendashboards/README.md) | ChatGPT-native dashboard design, data-source mapping, refinement and secure self-hosting guidance | [thesysdev/opendashboards](https://github.com/thesysdev/opendashboards) |
 | [**Creative Studio**](adapters/creative-studio/README.md) ([private plugin](https://chatgpt.com/plugins/plugins_6b047a1755a48191a398368b1fa731d0)) | Unified tasteful web design, MengTo specialist workflows, and original algorithmic art | [Taste](https://github.com/Leonxlnx/taste-skill) · [MengTo](https://github.com/mengto/skills) · [Algorithmic Art](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art) |

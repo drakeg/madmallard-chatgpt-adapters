@@ -74,3 +74,9 @@
 - [x] Review upstream skill and license; implement ChatGPT adaptation and evaluation fixtures.
 - [x] Add static checks and catalog documentation.
 - [ ] Verify CI, private plugin installation and live triggering.
+
+## Owl Designer integration (2026-11-24)
+- [x] Review Owl-Listener UX skill collection, license, and potential overlap.
+- [x] Publish a standalone Owl Designer plugin and Creative Studio 0.2.0 update.
+- [x] Add design-stage routes, conflict precedence, eval fixtures and attribution.
+- [ ] Run actual ChatGPT triggering, browser accessibility, and usability validation.

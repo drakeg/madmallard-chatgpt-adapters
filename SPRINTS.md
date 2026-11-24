@@ -69,3 +69,8 @@
 - [ ] Verify GitHub Actions validation and live review of an authorized sample PR.
 - [x] Publish private ChatGPT plugin v0.1.0 (creation confirmed by plugin service).
 - [ ] Verify installed plugin in a fresh session and test actual triggering.
+
+## Terraform skill adapter (2026-11-24)
+- [x] Review upstream skill and license; implement ChatGPT adaptation and evaluation fixtures.
+- [x] Add static checks and catalog documentation.
+- [ ] Verify CI, private plugin installation and live triggering.

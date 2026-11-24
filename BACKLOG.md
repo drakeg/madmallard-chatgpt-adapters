@@ -37,3 +37,5 @@
 - [ ] Test all six review modes on an authorized real PR and compare findings against a manual baseline.
 - [ ] Confirm private ChatGPT plugin installation and fresh-session triggering, including negative cases.
 - [ ] Review upstream LICENSE/README license inconsistency before redistributing source.
+
+- [ ] Terraform adapter: verify private plugin installation, fresh-session triggering and a representative authorized Terraform workflow.

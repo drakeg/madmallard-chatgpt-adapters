@@ -17,6 +17,8 @@ jobs:
         run: python3 -m unittest discover -s tests -p 'test_skill_creator.py'
       - name: Taste Design static tests
         run: python3 -m unittest discover -s tests -p 'test_taste_design.py'
+      - name: Terraform skill static tests
+        run: python3 -m unittest discover -s tests -p 'test_terraform_skill.py'
       - name: Shell syntax
         run: bash -n scripts/install-scroll-craft.sh
       - name: Basic adapter checks

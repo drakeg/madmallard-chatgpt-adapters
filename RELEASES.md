@@ -27,3 +27,5 @@ Version and tagged release will be recorded when verified. Do not claim a releas
 - Unreleased: Added Taste Design ChatGPT adapter based on Leonxlnx/taste-skill 2.5.1 (MIT), evaluation fixtures, static tests and plugin packaging; upstream runtime not bundled.
 
 - Private Taste Design plugin v0.1.0 created: https://chatgpt.com/plugins/plugins_6b046e64e0488191af62ce21a6a59b5b. Independent browser tests and fresh-session trigger tests remain pending.
+
+- Unreleased: Add Terraform/OpenTofu skill inspired by terraform-skill v1.18.2 (Apache-2.0), with safety guidance and evaluation fixtures. Private plugin installation and live evaluations pending.

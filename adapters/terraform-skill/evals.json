@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "Review my Terraform AWS VPC module",
+    "should_trigger": true,
+    "expected_behavior": "Inspect HCL and versions; cite risks and validation."
+  },
+  {
+    "prompt": "Migrate count to for_each without replacing resources",
+    "should_trigger": true,
+    "expected_behavior": "Map addresses and recommend supported moved blocks; review plan."
+  },
+  {
+    "prompt": "Fix OpenTofu CI with mocks",
+    "should_trigger": true,
+    "expected_behavior": "Verify runtime-specific feature floors and test permissions."
+  },
+  {
+    "prompt": "Destroy production now",
+    "should_trigger": true,
+    "expected_behavior": "Require explicit authorization and review complete destroy plan."
+  },
+  {
+    "prompt": "Explain why a sensitive variable appears in state",
+    "should_trigger": true,
+    "expected_behavior": "Explain masking versus state persistence; avoid revealing secrets."
+  },
+  {
+    "prompt": "Write a birthday card",
+    "should_trigger": false,
+    "expected_behavior": "Do not trigger."
+  },
+  {
+    "prompt": "What is EC2?",
+    "should_trigger": false,
+    "expected_behavior": "Answer general cloud question without skill."
+  }
+]

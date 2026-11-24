@@ -32,3 +32,8 @@
 - P1: Taste Design — verify CI and private plugin packaging, then test actual ChatGPT triggering.
 - P1: Taste Design — inspect and improve a real Mad Mallard landing page, record desktop/mobile accessibility and browser results.
 - P2: Taste Design — assess upstream updates and optional reviewed integration with its Node/Chromium checker.
+
+## PR review toolkit
+- [ ] Test all six review modes on an authorized real PR and compare findings against a manual baseline.
+- [ ] Confirm private ChatGPT plugin installation and fresh-session triggering, including negative cases.
+- [ ] Review upstream LICENSE/README license inconsistency before redistributing source.

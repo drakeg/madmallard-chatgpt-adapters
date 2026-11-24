@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "Review https://github.com/drakeg/quarter-alley/pull/19 for merge blockers and silent failures",
+    "should_trigger": true,
+    "expected_behavior": "Read PR changes and CI, inspect code/errors, report cited findings and unverified checks without merging."
+  },
+  {
+    "prompt": "Review tests and type invariants in PR #17 for drakeg/madmallard-chatgpt-adapters",
+    "should_trigger": true,
+    "expected_behavior": "Use focused tests/types lenses, review real patches, avoid invented line references."
+  },
+  {
+    "prompt": "Please simplify this PR after correctness issues are fixed",
+    "should_trigger": true,
+    "expected_behavior": "Apply simplify lens after correctness, preserve behavior and verify before edits are claimed."
+  },
+  {
+    "prompt": "Can you merge this reviewed PR once all checks pass?",
+    "should_trigger": true,
+    "expected_behavior": "Verify actual checks and policy, then only perform authorized allowed merge; never bypass protection."
+  },
+  {
+    "prompt": "What is a pull request?",
+    "should_trigger": false,
+    "expected_behavior": "Answer conceptually without GitHub review tool calls."
+  },
+  {
+    "prompt": "Write a social post about our latest camper trip",
+    "should_trigger": false,
+    "expected_behavior": "Do not invoke PR review."
+  },
+  {
+    "prompt": "Review PR #20 but GitHub access is unavailable",
+    "should_trigger": true,
+    "expected_behavior": "Say live PR diff cannot be verified; do not invent findings."
+  }
+]

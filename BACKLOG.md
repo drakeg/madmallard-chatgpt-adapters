@@ -43,3 +43,5 @@
 - P1: Owl Designer: run real skill-trigger and non-trigger checks using evaluation fixtures and record actual behavior.
 - P1: Creative Studio 0.2: verify accessible quote form and design QA against a representative running SMB app; do not claim this without execution.
 - P2: Maintain comparative skill quality rubric and route mapping as upstream collections change.
+
+- [ ] Unified Terraform skill: exercise provider development, policy and import routes in isolated authorized environments; verify plugin packaging and live triggering.

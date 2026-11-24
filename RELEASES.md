@@ -29,3 +29,5 @@ Version and tagged release will be recorded when verified. Do not claim a releas
 - Private Taste Design plugin v0.1.0 created: https://chatgpt.com/plugins/plugins_6b046e64e0488191af62ce21a6a59b5b. Independent browser tests and fresh-session trigger tests remain pending.
 
 - Unreleased: Add Terraform/OpenTofu skill inspired by terraform-skill v1.18.2 (Apache-2.0), with safety guidance and evaluation fixtures. Private plugin installation and live evaluations pending.
+
+- Unreleased (2026-11-24): Owl Designer standalone ChatGPT plugin v0.1.0 and Creative Studio v0.2.0 now add targeted UX research, design systems, accessibility and QA skill routing with evidence-based conflict resolution.

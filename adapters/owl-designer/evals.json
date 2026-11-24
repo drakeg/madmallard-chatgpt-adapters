@@ -1,0 +1,32 @@
+[
+  {
+    "prompt": "Use Owl Designer to improve the fields and errors on our RV repair quote form",
+    "should_trigger": true,
+    "expected_behavior": "Select form-design and propose accessible field-level validation without claiming a live test"
+  },
+  {
+    "prompt": "Audit contrast and keyboard navigation on the existing settings screen",
+    "should_trigger": true,
+    "expected_behavior": "Choose accessibility-audit; report evidence and unverified assistive-technology tests separately"
+  },
+  {
+    "prompt": "Define reusable design tokens for my dashboard",
+    "should_trigger": true,
+    "expected_behavior": "Choose design-token while preserving existing brand"
+  },
+  {
+    "prompt": "Create QA checklist comparing built app to its design",
+    "should_trigger": true,
+    "expected_behavior": "Choose design-qa-checklist not handoff-spec"
+  },
+  {
+    "prompt": "Create an original particle field",
+    "should_trigger": false,
+    "expected_behavior": "Leave to Algorithmic Art"
+  },
+  {
+    "prompt": "What's the weather?",
+    "should_trigger": false,
+    "expected_behavior": "No design skill"
+  }
+]

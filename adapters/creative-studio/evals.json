@@ -53,5 +53,35 @@
     "prompt": "Deploy and screenshot a new landing page when no browser or deployment tool is connected.",
     "should_trigger": true,
     "expected_behavior": "Does not invent deployment or screenshot, supplies supported artifact and explicitly unverified steps."
+  },
+  {
+    "prompt": "Build a conversion-focused service site with an accessible request form",
+    "should_trigger": true,
+    "expected_behavior": "Taste identity, MengTo landing pattern, Owl form behavior; avoid unnecessary generative art"
+  },
+  {
+    "prompt": "Audit the SaaS pricing page for accessibility with evidence",
+    "should_trigger": true,
+    "expected_behavior": "Owl accessibility methodology with real evidence, MengTo pricing, Taste identity"
+  },
+  {
+    "prompt": "Make a deterministic generative art gallery",
+    "should_trigger": true,
+    "expected_behavior": "Algorithmic Art leads; Owl UX only if specific states need improvement"
+  },
+  {
+    "prompt": "Plan usability interviews for a new SaaS concept",
+    "should_trigger": true,
+    "expected_behavior": "Owl research methodology; no fabricated study outcomes"
+  },
+  {
+    "prompt": "Choose between a decorative two-column form and accessible single-column flow",
+    "should_trigger": true,
+    "expected_behavior": "Select evidence-backed specialized Owl form workflow, preserve overall branding"
+  },
+  {
+    "prompt": "What does display flex mean?",
+    "should_trigger": false,
+    "expected_behavior": "Answer programming question directly"
   }
 ]

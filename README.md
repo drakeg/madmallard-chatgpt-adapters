@@ -23,7 +23,7 @@ Reusable, version-controlled integration instructions for ChatGPT conversations 
 | [Mobbin](adapters/mobbin/ADAPTER.md) | UI/UX reference research for screens, flows and website sections | [mobbin/skills](https://github.com/mobbin/skills) |
 | [OpenSEO](adapters/open-seo/ADAPTER.md) | SEO research, audits, and SMB optimization workflows | [every-app/open-seo](https://github.com/every-app/open-seo) |
 | [HyperFrames](adapters/hyperframes/ADAPTER.md) | Editable HTML-to-video production and local MP4 rendering | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
-| [Scroll Craft](adapters/scroll-craft/README.md) (standalone skill) | Premium scroll-driven websites, creative scroll storytelling and browser verification | [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft) |
+| [Scroll Craft](adapters/scroll-craft/README.md) ([private plugin](https://chatgpt.com/plugins/plugins_6b06248598d88191af01ed9ca601f600)) | Premium scroll-driven websites, creative scroll storytelling and browser verification | [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft) |
 | [Awwwards MCP](adapters/awwwards/ADAPTER.md) | Creative web references and motion inspection | [Gsta/awwwards-mcp](https://github.com/Gsta/awwwards-mcp) |
 | [Screenshots Design Inspiration](adapters/screenshots/ADAPTER.md) | Real app screenshots and patterns | [joesteinkamp/screenshots-design-inspiration](https://github.com/joesteinkamp/screenshots-design-inspiration) |
 | [Design Scope](adapters/design-scope/ADAPTER.md) | Local design-reference MCP | [unfoldingdimensions/design-scope-mcp](https://github.com/unfoldingdimensions/design-scope-mcp) |

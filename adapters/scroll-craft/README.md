@@ -1,5 +1,7 @@
 # Mad Mallard Scroll Craft — standalone ChatGPT skill
 
+[**Open the private Scroll Craft skill in ChatGPT**](https://chatgpt.com/plugins/plugins_6b06248598d88191af01ed9ca601f600) · Version 0.1.0.
+
 Original ChatGPT adaptation of [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft) (MIT).
 
 - [Skill](SKILL.md)

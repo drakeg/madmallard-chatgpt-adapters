@@ -86,7 +86,7 @@
 - [x] Assess enhancement, collision, precedence and operational constraints.
 - [x] Draft standalone Skill Creator package and opt-in integrated routing.
 - [x] Add trigger/non-trigger evaluation fixtures and static checks.
-- [ ] Confirm private ChatGPT plugin creation and Creative Studio update.
+- [x] Confirm private standalone ChatGPT plugin v0.1.0 creation and Creative Studio update to v0.3.0.
 - [ ] Merge PR after CI and run independent real ChatGPT triggering / browser tests.
 
 - [x] Integrate Awwwards, Screenshots, Design Scope and Flowscope as optional Creative Studio reference sources with documented access and conflict boundaries.

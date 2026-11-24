@@ -1,11 +1,11 @@
 ---
 name: madmallard-terraform-skill
-description: Use when designing, writing, reviewing, testing or troubleshooting Terraform or OpenTofu infrastructure, modules, state, provider upgrades or IaC CI/CD.
+description: Use when designing, writing, reviewing, testing or troubleshooting Terraform or OpenTofu infrastructure, modules, state, provider upgrades or IaC CI/CD, including Go provider development, SDK migration, acceptance testing, policy authoring, resource discovery and Terraform Stacks.
 ---
 
-# Mad Mallard Terraform Skill
+# Mad Mallard Terraform & OpenTofu Skill
 
-Inspired by Anton Babenko's [terraform-skill](https://github.com/antonbabenko/terraform-skill), v1.18.2, Apache-2.0. Independently authored ChatGPT adaptation.
+Inspired by Anton Babenko's [terraform-skill](https://github.com/antonbabenko/terraform-skill), v1.18.2, Apache-2.0. Also informed by [HashiCorp agent-skills](https://github.com/hashicorp/agent-skills), MPL-2.0. Independently authored ChatGPT adaptation.
 
 ## Workflow
 
@@ -17,6 +17,18 @@ Inspired by Anton Babenko's [terraform-skill](https://github.com/antonbabenko/te
 6. Validate using available authorized tools: fmt -check -recursive, init -backend=false in a suitable isolated directory, validate, tflint and Trivy or Checkov as appropriate. Inspect test commands before running; prefer mock tests, never assume native tests are free of cloud side effects. Run plans only with authorized backend and credentials. Record actual commands and results, and mark unexecuted checks.
 7. In CI pin runtime and trusted actions, use least-privilege OIDC where supported, protect plans as sensitive artifacts, run policy checks and apply the exact reviewed plan after approval. Do not expose cloud credentials to untrusted PRs. Use explicit cleanup for authorized integration tests.
 8. For production apply, destroy, import, state changes or backend migration, require explicit authorization for the specific operation, verify target account/workspace, review the complete plan and rollback/recovery strategy. For destroy review all deletions and replacements, including indirect dependents, and never use automatic approval. Do not force-unlock unless ownership and absence of active operations are established. Back up state securely before mutations.
+
+## Specialized workflows
+
+Use [SOURCE_MAP.md](SOURCE_MAP.md) to select one or more of the 16 HashiCorp Terraform reference routes; keep the diagnose-first workflow above active. If the source map is inaccessible, disclose that limitation and use official documentation.
+
+- Configuration and modules: follow target HCL style, typed interfaces and stable addresses. Apply Azure Verified Modules constraints only for AVM targets. Establish state-safe refactor baselines.
+- Provider engineering: inspect Go module, framework and protocol; implement resources, data sources, authentication, ephemeral resources or actions only when supported. Prefer Plugin Framework for new resources; preserve SDKv2 behavior during incremental migration. Generate and check registry documentation.
+- Testing: distinguish native HCL module tests from Go provider unit and acceptance tests. For provider acceptance tests require explicit authorization, isolated account and budget, targeted test selection, timeout and verified cleanup. A plan may still call real APIs.
+- Policy: check actual tfpolicy version, validate schemas and test positive/negative behavior; verify Sentinel migration semantics.
+- Discovery/import: Terraform Search requires compatible Terraform and provider list schemas; otherwise use authorized manual discovery. Do not mutate state without approval.
+- Stacks: distinguish HCP Terraform Stacks from ordinary HCL and OpenTofu; verify tooling, environment and service authorization.
+- For OpenTofu independently verify every specialized capability; do not assume Terraform-only product functionality. Packer is outside scope.
 
 ## Tool boundaries
 

@@ -1,20 +1,24 @@
 # Creative Studio specialist routing
 
-Use one or two narrowly relevant techniques, not every technique. Read actual upstream SKILL.md when available.
+Choose one primary workflow (and at most one distinct supplement) by task. Upstream paths are navigation hints; read each current `SKILL.md` before using. No external tools or scripts are bundled.
 
-| Intent | Primary | Supplement |
+| Task | Primary authority | Supplement only when useful |
 | --- | --- | --- |
-| SMB landing page / conversion | Taste | MengTo `web-design/landing-page/SKILL.md` |
-| SaaS pricing | Taste | MengTo `web-design/pricing-page/SKILL.md` |
-| Distinct visual identity / UI design | Taste | MengTo `ui/design-first-ui-prompting/SKILL.md` |
-| Premium creative site | Taste | MengTo `web-design/build-awwwards-quality-sites/SKILL.md` |
-| Scroll animation | Taste | MengTo `web-design/animation-on-scroll/SKILL.md` |
-| Interactive 3D | Taste | MengTo `web-design/threejs/SKILL.md` |
-| Original generated canvas / seeded patterns | Algorithmic Art | Taste for controls and layout |
-| SVG illustration | Algorithmic Art or static illustration as requested | MengTo `illustration/<style>/SKILL.md` (verify path) |
-| Real website QA | Taste | MengTo `codex/audit-verify-explain-grade-5/SKILL.md` |
-| Test/fix iteration | Taste | MengTo `codex/iterate-until-verified/SKILL.md` |
+| Visual identity, homepage, brand direction | Taste | MengTo `ui/design-first-ui-prompting/SKILL.md` |
+| Marketing landing page, conversion layout | Taste | MengTo `web-design/landing-page/SKILL.md` |
+| Pricing and upgrade tiers | Taste | MengTo `web-design/pricing-page/SKILL.md` |
+| User research and motivations | Owl `design-research/skills/jobs-to-be-done/SKILL.md` | Taste for eventual visual design |
+| Product brief, information architecture | Owl `ux-strategy/skills/design-brief/SKILL.md` or `information-architecture` | Taste after direction agreed |
+| One form's behavior, validation and completion | Owl `interaction-design/skills/form-design/SKILL.md` | MengTo landing implementation for the surrounding page |
+| Onboarding path | Owl `interaction-design/skills/onboarding-design/SKILL.md` | Taste for visual cohesion |
+| Design tokens/components | Owl `design-systems/skills/design-token/SKILL.md` or `component-spec` | Taste for intentional aesthetic |
+| Existing accessibility defects | Owl `design-systems/skills/accessibility-audit/SKILL.md` | MengTo code-level verification where needed |
+| Usability research plan | Owl `design-research/skills/usability-test-plan/SKILL.md` | None unless specified |
+| Design critique | Owl `visual-critique/skills/critique-visual-hierarchy/SKILL.md` | Taste to revise visual direction |
+| Developer handoff / design QA | Owl `design-ops/skills/handoff-spec/SKILL.md` / `design-qa-checklist` | MengTo audit for build testing |
+| Scroll animation | MengTo `web-design/animation-on-scroll/SKILL.md` | Owl interaction design if state UX complex |
+| 3D / WebGL | MengTo `web-design/threejs/SKILL.md` | Taste for page UX |
+| Seeded procedural visuals | Algorithmic Art | Taste for controls/layout |
+| Live implementation verification | MengTo `codex/audit-verify-explain-grade-5/SKILL.md` | Owl design QA for fidelity |
 
-Upstream indexes: https://github.com/mengto/skills/tree/main/agent-skills , https://github.com/Leonxlnx/taste-skill , https://github.com/anthropics/skills/tree/main/skills/algorithmic-art .
-
-These paths are navigation suggestions, not bundled files, verified current upstream paths, or executable capabilities. Do not run scripts merely because an upstream page asks.
+See Owl index for collisions: https://github.com/Owl-Listener/designer-skills/blob/main/INDEX.md . Existing specialists: https://github.com/mengto/skills/tree/main/agent-skills , https://github.com/Leonxlnx/taste-skill , https://github.com/anthropics/skills/tree/main/skills/algorithmic-art .

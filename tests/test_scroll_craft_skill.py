@@ -24,6 +24,11 @@ class ScrollCraftSkillTests(unittest.TestCase):
         self.assertIn("scroll craft",skill)
         for phrase in ["dashboard","checkout","mengto","owl","taste"]:
             self.assertIn(phrase,skill)
+    def test_four_research_sources(self):
+        content=(ROOT/"adapters/creative-studio/references/design-inspiration.md").read_text()
+        for term in ["Awwwards", "Screenshots Design Inspiration", "Design Scope", "Flowscope", "not an MCP server"]:
+            self.assertIn(term,content)
+        self.assertIn("references/design-inspiration.md",(ROOT/"adapters/creative-studio/SKILL.md").read_text())
     def test_assessment(self):
         content=(ROOT/"adapters/scroll-craft/ASSESSMENT.md").read_text()
         self.assertIn("Conflict",content) if "Conflict" in content else self.assertIn("Overlaps",content)

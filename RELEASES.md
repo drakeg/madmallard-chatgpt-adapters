@@ -33,3 +33,5 @@ Version and tagged release will be recorded when verified. Do not claim a releas
 - Unreleased (2026-11-24): Owl Designer standalone ChatGPT plugin v0.1.0 and Creative Studio v0.2.0 now add targeted UX research, design systems, accessibility and QA skill routing with evidence-based conflict resolution.
 
 - Unreleased: Added standalone Scroll Craft ChatGPT skill and optional Creative Studio routing; source-linked upstream MIT toolchain is not bundled.
+
+- Creative Studio: add four optional, open-source Mobbin alternatives for design research; no new license rights or automatic ChatGPT connector claims.

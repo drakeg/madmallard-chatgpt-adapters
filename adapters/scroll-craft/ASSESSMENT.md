@@ -27,3 +27,7 @@
 - The standalone skill is a separate opt-in creative capability. The integrated Creative Studio should route to it only when visitor goals justify motion storytelling.
 
 **Follow-up:** Verify a real Scroll Craft/Creative Studio invocation with a current SMB marketing brief, browser and reduced-motion tests. Do not substitute trigger fixtures for measured execution.
+
+## Four Mobbin-alternative research inputs
+
+Awwwards (expressive web references), Screenshots Design Inspiration (genuine UI/error states), Design Scope (palette/type), and Flowscope (browseable flows) can inform the brief **before** Scroll Craft selects the narrative grammar. They are not alternative animation engines and do not require Scroll Craft to be chosen for ordinary UI work. See `../creative-studio/references/design-inspiration.md`.

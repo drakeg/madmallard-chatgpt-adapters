@@ -4,6 +4,9 @@ Choose one primary workflow (and at most one distinct supplement) by task. Upstr
 
 | Task | Primary authority | Supplement only when useful |
 | --- | --- | --- |
+| Creative website/404 inspiration research | Awwwards MCP for expressive marketing; Screenshots for authentic error states | Design Scope for palette/type; Flowscope for flow templates; only if access is verified |
+| Screenshots, app flows, onboarding examples | Screenshots Design Inspiration | Flowscope browser gallery for alternate original flow patterns |
+| Design token/palette/typography reference search | Design Scope MCP | Taste owns final visual direction |
 | Visual identity, homepage, brand direction | Taste | MengTo `ui/design-first-ui-prompting/SKILL.md` |
 | Marketing landing page, conversion layout | Taste | MengTo `web-design/landing-page/SKILL.md` for ordinary pages; Scroll Craft only for explicitly experiential scroll narratives |
 | Pricing and upgrade tiers | Taste | MengTo `web-design/pricing-page/SKILL.md` |
@@ -26,3 +29,5 @@ Choose one primary workflow (and at most one distinct supplement) by task. Upstr
 See Owl index for collisions: https://github.com/Owl-Listener/designer-skills/blob/main/INDEX.md . Existing specialists: https://github.com/mengto/skills/tree/main/agent-skills , https://github.com/Leonxlnx/taste-skill , https://github.com/anthropics/skills/tree/main/skills/algorithmic-art .
 
 Scroll Craft's [MIT upstream](https://github.com/nateherkai/scroll-craft) is a separate opt-in specialist with its own [routing assessment](../../scroll-craft/ASSESSMENT.md) in this repository. Its engine is not bundled into this ChatGPT skill.
+
+Source selection, copyright and access checks: [four design-reference alternatives](design-inspiration.md). Awwwards, Screenshots and Design Scope need connected/local MCP clients; Flowscope is a web gallery. Never claim a successful search unless actually invoked.

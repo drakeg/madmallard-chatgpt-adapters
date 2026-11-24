@@ -88,3 +88,5 @@
 - [x] Add trigger/non-trigger evaluation fixtures and static checks.
 - [ ] Confirm private ChatGPT plugin creation and Creative Studio update.
 - [ ] Merge PR after CI and run independent real ChatGPT triggering / browser tests.
+
+- [x] Integrate Awwwards, Screenshots, Design Scope and Flowscope as optional Creative Studio reference sources with documented access and conflict boundaries.

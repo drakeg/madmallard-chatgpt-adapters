@@ -35,6 +35,19 @@ flowchart TD
 
 **The result:** Taste sets visual direction; Scroll Craft is an opt-in narrative specialist; Owl-Listener supplies focused UX research, design-system, accessibility and QA workflows; MengTo handles specialized implementation; Algorithmic Art is optional. Competing guidance is resolved in favor of real user requirements, accessibility, existing brand contracts, verified behavior and then task specialization. Accessibility, responsive behavior, and performance apply throughout.
 
+## Open-source design references (Mobbin alternatives)
+
+For targeted inspiration, Creative Studio can consult these **four complementary research sources** before designing:
+
+| Reference source | Best use | Type |
+| --- | --- | --- |
+| [Awwwards MCP](../awwwards/ADAPTER.md) | Creative marketing sites, memorable 404s and motion references | MCP |
+| [Screenshots Design Inspiration](../screenshots/ADAPTER.md) | Actual product screenshots, UI states and flows | MCP |
+| [Design Scope](../design-scope/ADAPTER.md) | Palette, typography and interaction pattern references | Python MCP |
+| [Flowscope](../flowscope/ADAPTER.md) | Browse original screens and user flows | Static/local gallery |
+
+They are **optional reference tools**, not replacements for Taste, Owl, MengTo, Scroll Craft or Algorithmic Art. Use [source selection and rights guidance](references/design-inspiration.md). The [cross-platform installer](../../scripts/install_design_toolkit.py) and [GitHub Actions](../../actions/setup-design-toolkit/action.yml) are in this same repository; a ChatGPT skill does not silently connect those local services.
+
 ## Example workflows
 
 **SMB service website:** Taste establishes a credible page hierarchy, real imagery, and a clear quote request. MengTo's landing-page guidance helps make that workflow effective. Generative art is typically unnecessary.

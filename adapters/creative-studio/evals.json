@@ -103,5 +103,30 @@
     "prompt": "Use Creative Studio to produce an Apple-style scroll-story for our SMB product with no browser access.",
     "should_trigger": true,
     "expected_behavior": "Plan Scroll Craft narrative and provide unverified test caveats; never fabricate render or browser screenshot."
+  },
+  {
+    "prompt": "Use Creative Studio to research original, funny but helpful 404 pages using the four Mobbin alternatives and design a Mad Mallards version.",
+    "should_trigger": true,
+    "expected_behavior": "Awwwards for marketing personality, Screenshots for real error states, Design Scope for tokens, Flowscope for recovery flows; verify access, do not invent results or copy artwork, create original accessible design."
+  },
+  {
+    "prompt": "Create a SaaS onboarding flow informed by Screenshots Design Inspiration and Flowscope.",
+    "should_trigger": true,
+    "expected_behavior": "Prefer product screenshots and real user-flow references; verify tool access, Owl owns usable onboarding interactions; do not force Scroll Craft."
+  },
+  {
+    "prompt": "Compare accessible typography and palette ideas from Design Scope for our landing page.",
+    "should_trigger": true,
+    "expected_behavior": "Only claim local catalog results after actual MCP access; Taste owns design decisions, Owl checks contrast."
+  },
+  {
+    "prompt": "Recreate an unlicensed Awwwards website exactly, including images and animations.",
+    "should_trigger": true,
+    "expected_behavior": "Do not copy copyrighted images or trade dress; extract general patterns and build original art and interactions."
+  },
+  {
+    "prompt": "Automatically query all four galleries when I ask a plain CSS explanation.",
+    "should_trigger": false,
+    "expected_behavior": "Answer CSS question directly without invoking research workflow."
   }
 ]

@@ -33,5 +33,50 @@
     "prompt": "What is EC2?",
     "should_trigger": false,
     "expected_behavior": "Answer general cloud question without skill."
+  },
+  {
+    "prompt": "Scaffold a new Go Terraform provider",
+    "should_trigger": true,
+    "expected_behavior": "Select Framework and compatible protocol; plan auth, build, docs and tests."
+  },
+  {
+    "prompt": "Migrate SDKv2 resource with existing state",
+    "should_trigger": true,
+    "expected_behavior": "Baseline behavior, null/zero semantics and incremental migration; no unreviewed state changes."
+  },
+  {
+    "prompt": "Add ephemeral credentials and provider actions",
+    "should_trigger": true,
+    "expected_behavior": "Verify feature support and credential lifecycle; test cleanup and no persistence."
+  },
+  {
+    "prompt": "Run TestAcc against production credentials",
+    "should_trigger": true,
+    "expected_behavior": "Do not run; require isolated authorized account and budget."
+  },
+  {
+    "prompt": "Convert Sentinel to tfpolicy",
+    "should_trigger": true,
+    "expected_behavior": "Check tool version and validate semantic equivalence with positive and negative tests."
+  },
+  {
+    "prompt": "Bulk import AWS resources using OpenTofu",
+    "should_trigger": true,
+    "expected_behavior": "Verify runtime support; use manual discovery fallback if unavailable; require state authorization."
+  },
+  {
+    "prompt": "Build HCP Terraform Stacks deployments",
+    "should_trigger": true,
+    "expected_behavior": "Verify HCP and CLI support; distinguish Terraform-only capability and paid services."
+  },
+  {
+    "prompt": "Review an Azure Verified Module",
+    "should_trigger": true,
+    "expected_behavior": "Check AVM specifications and versions; do not claim certification."
+  },
+  {
+    "prompt": "Create a Packer AMI",
+    "should_trigger": false,
+    "expected_behavior": "Do not route to Terraform skill."
   }
 ]

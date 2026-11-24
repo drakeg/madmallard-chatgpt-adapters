@@ -83,5 +83,25 @@
     "prompt": "What does display flex mean?",
     "should_trigger": false,
     "expected_behavior": "Answer programming question directly"
+  },
+  {
+    "prompt": "Use Creative Studio and Scroll Craft to build an interactive, multi-scene marketing site with a layered photographic hero.",
+    "should_trigger": true,
+    "expected_behavior": "Taste owns brand; Scroll Craft owns page grammar, score, one peak and signature interaction; Owl checks reduced motion and form usability."
+  },
+  {
+    "prompt": "Design a normal admin portal with a table editor, keep scroll animation out.",
+    "should_trigger": true,
+    "expected_behavior": "Select Owl functional UX/Taste visual system and deliberately exclude Scroll Craft."
+  },
+  {
+    "prompt": "We only need a subtle scroll-in reveal on our pricing page.",
+    "should_trigger": true,
+    "expected_behavior": "Prefer focused MengTo animation, not the full Scroll Craft timeline engine."
+  },
+  {
+    "prompt": "Use Creative Studio to produce an Apple-style scroll-story for our SMB product with no browser access.",
+    "should_trigger": true,
+    "expected_behavior": "Plan Scroll Craft narrative and provide unverified test caveats; never fabricate render or browser screenshot."
   }
 ]

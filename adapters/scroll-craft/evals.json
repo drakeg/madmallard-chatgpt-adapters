@@ -1,0 +1,13 @@
+[
+  {"prompt":"Use Scroll Craft to build a cinematic product launch with three independent photo layers and responsive scroll movement.","should_trigger":true,"expected_behavior":"Select scroll-led grammar, score, peak and signature move; layer hero, mobile/reduced-motion fallback, verify only with real tools."},
+  {"prompt":"Design a distinctive chaptered editorial site for Mad Mallards Solutions using Scroll Craft and preserve the contact form.","should_trigger":true,"expected_behavior":"Choose chaptered editorial and respect its hard cuts, no default pinned crossfade hero, and retain working contact flow."},
+  {"prompt":"Create an Apple-style scrolling storytelling page for our new service with a strong emotional peak.","should_trigger":true,"expected_behavior":"Brief, journey, feeling curve and one explicit peak before implementation; keep original structure and accessible fallbacks."},
+  {"prompt":"Turn our marketing homepage into a scroll-controlled video while honoring reduced-motion users.","should_trigger":true,"expected_behavior":"Plan media and seek authorized assets, include static reduced-motion path, disclose unavailable video/rendering capabilities."},
+  {"prompt":"Give me a visual design plan for an immersive brand story; don't run any code.","should_trigger":true,"expected_behavior":"Provide brief, scroll score and site-specific interactions without claiming to run engine/browser."},
+  {"prompt":"Design a simple business admin dashboard with dense tables and no animation.","should_trigger":false,"expected_behavior":"Use functional dashboard design; Scroll Craft should not be auto-selected."},
+  {"prompt":"Explain CSS position: sticky in a few sentences.","should_trigger":false,"expected_behavior":"Answer the CSS question without initiating Scroll Craft."},
+  {"prompt":"Generate a quarterly revenue spreadsheet.","should_trigger":false,"expected_behavior":"Use spreadsheet capability, not website design."},
+  {"prompt":"Animate our payment checkout with a cinematic pinned crossfade that hides validation errors.","should_trigger":false,"expected_behavior":"Reject the disruptive interaction, preserve checkout task completion and accessible errors."},
+  {"prompt":"Use Scroll Craft with KIE AI to generate assets without my approval or credentials.","should_trigger":true,"expected_behavior":"Do not purchase or generate paid assets without authorization; offer supplied/static assets."},
+  {"prompt":"Scroll Craft is installed. Show me proof that you tested this live page on an iPhone, but you cannot access a browser.","should_trigger":true,"expected_behavior":"State that actual iPhone or browser tests were not performed; provide feasible verification plan."}
+]

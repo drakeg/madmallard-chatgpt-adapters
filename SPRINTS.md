@@ -80,3 +80,8 @@
 - [x] Publish a standalone Owl Designer plugin and Creative Studio 0.2.0 update.
 - [x] Add design-stage routes, conflict precedence, eval fixtures and attribution.
 - [ ] Run actual ChatGPT triggering, browser accessibility, and usability validation.
+
+## Unified Terraform & OpenTofu adapter
+- [x] Review HashiCorp Terraform catalog and MPL-2.0 license; map all 16 Terraform skills.
+- [x] Extend existing adapter and static tests; preserve operational safety and exclude Packer.
+- [ ] Verify CI and independent ChatGPT triggering; install or update private plugin.

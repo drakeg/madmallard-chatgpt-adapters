@@ -43,3 +43,6 @@
 - P1: Owl Designer: run real skill-trigger and non-trigger checks using evaluation fixtures and record actual behavior.
 - P1: Creative Studio 0.2: verify accessible quote form and design QA against a representative running SMB app; do not claim this without execution.
 - P2: Maintain comparative skill quality rubric and route mapping as upstream collections change.
+
+- P1: Verify standalone Scroll Craft skill invocation in a new ChatGPT chat, using a representative marketing brief.
+- P1: Verify Creative Studio chooses Scroll Craft only when an immersive visitor journey is warranted; regression-test dashboard and form requests.

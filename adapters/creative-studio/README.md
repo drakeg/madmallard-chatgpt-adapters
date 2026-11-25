@@ -56,6 +56,10 @@ They are **optional reference tools**, not replacements for Taste, Owl, MengTo, 
 
 **Interactive art gallery:** Algorithmic Art defines the seeded visuals and meaningful controls. Taste establishes gallery layout, typography, and interaction quality. MengTo can contribute precise motion and UI techniques.
 
+## Brand identity and first-class image generation
+
+Creative Studio establishes an **individual brand identity for each unrelated product**, using audience, business purpose, personality and existing approved identity. If a new product has no approved logo and an image-generation capability is available, it **generates three visually different original logo concepts** (not three recolors), presents a meaningful direction choice, and records the approved identity. Original images, illustrations and backgrounds are generated when useful, with optimized favicons and reusable assets maintained in the product repository. Taste owns visual personality; Owl verifies accessible color, readable type and keyboard UX; MengTo implements; Algorithmic Art supplies optional procedural imagery; Scroll Craft handles immersive storytelling. **Anti-repetition:** never automatically reuse palettes, generic marks, typography pairings or dashboard/landing templates across unrelated products. Preserve established brand choices in subsequent development. See [Brand Identity guidance](references/brand-identity.md).
+
 ## Design Discovery (before substantial new builds)
 
 Creative Studio now performs **adaptive discovery** before a new site or material redesign when the brief is missing a consequential decision. It considers purpose, audience, style, inspiration, branding, features/conversion, technology and priorities; **these are candidate topics, not eight mandatory questions**. Ask one to three relevant conversational questions only when necessary, reuse known project decisions, and allow **"Use your judgment"** or **"Surprise me"** for optional aesthetics. If the user supplies a complete brief, requests a small repair, or delegates the creative choices, proceed without interrogation. Once the brief is sufficient, build and test without repetitive approval requests. [Full behavior and examples](references/design-discovery.md).
@@ -64,7 +68,7 @@ Creative Studio now performs **adaptive discovery** before a new site or materia
 
 > Use Mad Mallard Creative Studio to redesign my SaaS homepage with a strong visual hierarchy, an accessible responsive layout, and an original seeded generative hero—only if it supports the product story.
 
-The private ChatGPT plugin has been updated to **version 0.3.0**, incorporating Scroll Craft and the four optional Mobbin-alternative research routes. The five standalone skills remain available independently. This skill provides orchestration instructions, **not** a bundled browser, a local Node/Chromium runtime, or automatic deployment. Only claim tests, rendered assets, and deployments that actually ran.
+The private ChatGPT plugin has been updated to **version 0.5.0**, incorporating Scroll Craft and the four optional Mobbin-alternative research routes. The five standalone skills remain available independently. This skill provides orchestration instructions, **not** a bundled browser, a local Node/Chromium runtime, or automatic deployment. Only claim tests, rendered assets, and deployments that actually ran.
 
 ## Scroll Craft fit and limits
 

@@ -168,5 +168,55 @@
     "prompt": "Can you edit this photo by removing a sign?",
     "should_trigger": false,
     "expected_behavior": "Do not activate web design discovery; use image editing workflow."
+  },
+  {
+    "prompt": "New independent app with no logo. Build its homepage and brand.",
+    "should_trigger": true,
+    "expected_behavior": "Research audience and purpose; create three genuinely different actual logo concepts using image generation when available; present meaningful selection and preserve resulting approved assets."
+  },
+  {
+    "prompt": "Redesign my existing website but keep the approved logo, colors and fonts.",
+    "should_trigger": true,
+    "expected_behavior": "Preserve approved identity, adapt layout and UX, do not generate replacement logos or force new colors."
+  },
+  {
+    "prompt": "Build brand identities for two unrelated SMB apps.",
+    "should_trigger": true,
+    "expected_behavior": "Different palettes, typography, logo systems and layout grammars; do not reuse generic brand templates."
+  },
+  {
+    "prompt": "Surprise me with the identity for our new scheduling app.",
+    "should_trigger": true,
+    "expected_behavior": "Choose a differentiated direction when delegated; document the selection without pretending formal approval."
+  },
+  {
+    "prompt": "No image generation tool is available; design a logo for a new product.",
+    "should_trigger": true,
+    "expected_behavior": "Give three distinct detailed logo directions and mark actual visuals unrendered, without inventing outputs."
+  },
+  {
+    "prompt": "Generate three logo concepts that are just violet variants of the same monogram.",
+    "should_trigger": true,
+    "expected_behavior": "Reject recolor-only concepts; deliver three distinct visual metaphors and type styles."
+  },
+  {
+    "prompt": "Fix the broken keyboard navigation in my approved branded navbar.",
+    "should_trigger": true,
+    "expected_behavior": "Skip rebrand and discovery; inspect and repair keyboard behavior while preserving identity."
+  },
+  {
+    "prompt": "Set up favicons and transparent logo assets in my product repository.",
+    "should_trigger": true,
+    "expected_behavior": "Use verified optimized files and correct metadata paths; don't fake SVG/vector or claim test if unchecked."
+  },
+  {
+    "prompt": "Make the background illustration original but lightweight.",
+    "should_trigger": true,
+    "expected_behavior": "Use image generation when appropriate and accessible, optimize for web; include fallbacks and verify assets."
+  },
+  {
+    "prompt": "What is the current time?",
+    "should_trigger": false,
+    "expected_behavior": "Do not invoke creative studio."
   }
 ]

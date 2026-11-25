@@ -50,3 +50,7 @@
 - [ ] Unified Terraform skill: exercise provider development, policy and import routes in isolated authorized environments; verify plugin packaging and live triggering.
 
 - P1: Creative Studio Design Discovery — evaluate real ask/skip behavior with complete and incomplete briefs, verify that maintenance tasks bypass discovery.
+
+- P1: Creative Studio — run new-product brand discovery on an authorized project, generate three truly different logos, obtain a direction, and verify repo asset exports.
+- P1: Creative Studio — compare unrelated project brand portfolios for color/font/logo/layout repetition and run keyboard/contrast/responsive verification.
+- P2: Creative Studio — add lightweight CI checks for required brand source/metadata and optimization where each product has a documented brand contract.

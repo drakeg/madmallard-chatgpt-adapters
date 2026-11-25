@@ -39,3 +39,5 @@ Version and tagged release will be recorded when verified. Do not claim a releas
 - Released private ChatGPT Scroll Craft v0.1.0 and updated Creative Studio v0.3.0 (includes four design-reference alternatives).
 
 - Unreleased: unify Terraform/OpenTofu adapter with 16 source-linked HashiCorp Terraform workflows (MPL-2.0 upstream); no upstream source vendored.
+
+- Unreleased (2026-11-24): Creative Studio adaptive Design Discovery — purpose, audience, style, inspiration, branding, visitor actions, stack and priorities; ask consequential missing questions only, allow delegated aesthetics and skip questions for maintenance or complete briefs.

@@ -48,3 +48,5 @@
 - P1: Verify Creative Studio chooses Scroll Craft only when an immersive visitor journey is warranted; regression-test dashboard and form requests.
 
 - [ ] Unified Terraform skill: exercise provider development, policy and import routes in isolated authorized environments; verify plugin packaging and live triggering.
+
+- P1: Creative Studio Design Discovery — evaluate real ask/skip behavior with complete and incomplete briefs, verify that maintenance tasks bypass discovery.

@@ -95,3 +95,9 @@
 - [x] Review HashiCorp Terraform catalog and MPL-2.0 license; map all 16 Terraform skills.
 - [x] Extend existing adapter and static tests; preserve operational safety and exclude Packer.
 - [ ] Verify CI and independent ChatGPT triggering; install or update private plugin.
+
+## Creative Studio — Adaptive Design Discovery (2026-11-24)
+- [x] Add project-intake rules with eight optional topics and clear skip logic.
+- [x] Add "Use your judgment" delegation, reusing known constraints and minimal questions.
+- [x] Document trigger/skip paths and evaluation fixtures.
+- [ ] Observe real ChatGPT question/skip behavior on separate test scenarios.

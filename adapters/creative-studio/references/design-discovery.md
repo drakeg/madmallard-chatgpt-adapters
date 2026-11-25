@@ -50,3 +50,7 @@ Use this reference with `SKILL.md`. Discovery is for **new work or material ambi
 ## Evaluation criteria
 
 Successful behavior is measured by (a) not repeating known information, (b) not asking eight questions by default, (c) asking only when answers would change the outcome, (d) showing explicit choice delegation, (e) not blocking maintenance work, and (f) not misrepresenting assumptions or completed builds.
+
+## Brand identity gate
+
+For a **new independent product** with no approved identity, a short brand discovery step is material: establish audience, personality and logo status. Offer three **genuinely different** logo concepts when image generation is available, and seek one selection before recording it as approved. Do not repeat approval questions after the identity is documented. Existing approved brands and narrow maintenance requests bypass this gate. See [brand-identity.md](brand-identity.md).

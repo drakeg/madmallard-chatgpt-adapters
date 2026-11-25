@@ -101,3 +101,10 @@
 - [x] Add "Use your judgment" delegation, reusing known constraints and minimal questions.
 - [x] Document trigger/skip paths and evaluation fixtures.
 - [ ] Observe real ChatGPT question/skip behavior on separate test scenarios.
+
+## Creative Studio — Product identity and generated assets (2026-11-25)
+- [x] Define anti-repetition and brand preservation principles for unrelated products.
+- [x] Define three-direction logo generation and first-class visual asset workflow.
+- [x] Document repository brand assets, favicons, accessibility and approval status.
+- [x] Add brand regression scenarios and plugin packaging.
+- [ ] Verify live generation/selection, web accessibility and brand asset use on a real project.

@@ -46,3 +46,5 @@
 
 - P1: Verify standalone Scroll Craft skill invocation in a new ChatGPT chat, using a representative marketing brief.
 - P1: Verify Creative Studio chooses Scroll Craft only when an immersive visitor journey is warranted; regression-test dashboard and form requests.
+
+- [ ] Unified Terraform skill: exercise provider development, policy and import routes in isolated authorized environments; verify plugin packaging and live triggering.

@@ -90,3 +90,8 @@
 - [ ] Merge PR after CI and run independent real ChatGPT triggering / browser tests.
 
 - [x] Integrate Awwwards, Screenshots, Design Scope and Flowscope as optional Creative Studio reference sources with documented access and conflict boundaries.
+
+## Unified Terraform & OpenTofu adapter
+- [x] Review HashiCorp Terraform catalog and MPL-2.0 license; map all 16 Terraform skills.
+- [x] Extend existing adapter and static tests; preserve operational safety and exclude Packer.
+- [ ] Verify CI and independent ChatGPT triggering; install or update private plugin.

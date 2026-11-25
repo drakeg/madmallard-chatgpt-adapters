@@ -37,3 +37,5 @@ Version and tagged release will be recorded when verified. Do not claim a releas
 - Creative Studio: add four optional, open-source Mobbin alternatives for design research; no new license rights or automatic ChatGPT connector claims.
 
 - Released private ChatGPT Scroll Craft v0.1.0 and updated Creative Studio v0.3.0 (includes four design-reference alternatives).
+
+- Unreleased: unify Terraform/OpenTofu adapter with 16 source-linked HashiCorp Terraform workflows (MPL-2.0 upstream); no upstream source vendored.

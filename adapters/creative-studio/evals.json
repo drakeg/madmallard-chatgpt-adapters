@@ -128,5 +128,45 @@
     "prompt": "Automatically query all four galleries when I ask a plain CSS explanation.",
     "should_trigger": false,
     "expected_behavior": "Answer CSS question directly without invoking research workflow."
+  },
+  {
+    "prompt": "Create a new website for my small business.",
+    "should_trigger": true,
+    "expected_behavior": "Ask about primary business goal or visitor action before implementation; keep discovery to a concise conversational question; don't demand all eight answers."
+  },
+  {
+    "prompt": "Build a website for a local RV repair shop. The audience is RV owners; main CTA is Request a Quote. Use the current logo and choose the visual styling.",
+    "should_trigger": true,
+    "expected_behavior": "Reuse supplied purpose, audience, CTA and branding; use judgment for style and proceed without redundant questions."
+  },
+  {
+    "prompt": "Surprise me with the design, but don't spend money.",
+    "should_trigger": true,
+    "expected_behavior": "Choose reasonable aesthetic defaults and proceed; never infer authorization to use paid services."
+  },
+  {
+    "prompt": "Fix the broken dropdown menu in my existing site, no redesign.",
+    "should_trigger": true,
+    "expected_behavior": "Skip discovery and investigate and fix directly."
+  },
+  {
+    "prompt": "I want to redesign our site and don't know if we should keep the branding.",
+    "should_trigger": true,
+    "expected_behavior": "Ask a short consequential branding question; inspect existing site first to avoid asking answered details."
+  },
+  {
+    "prompt": "Please continue the existing Creative Studio development after PR merge.",
+    "should_trigger": true,
+    "expected_behavior": "Continue next backlog work without re-asking discovery questions."
+  },
+  {
+    "prompt": "Create the product site based on the complete brief I just gave you.",
+    "should_trigger": true,
+    "expected_behavior": "Use existing brief and do not restart discovery."
+  },
+  {
+    "prompt": "Can you edit this photo by removing a sign?",
+    "should_trigger": false,
+    "expected_behavior": "Do not activate web design discovery; use image editing workflow."
   }
 ]

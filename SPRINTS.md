@@ -81,6 +81,16 @@
 - [x] Add design-stage routes, conflict precedence, eval fixtures and attribution.
 - [ ] Run actual ChatGPT triggering, browser accessibility, and usability validation.
 
+## Scroll Craft as a standalone and Creative Studio specialist (2026-11-24)
+- [x] Inspect upstream scroll-craft and installed Creative Studio routes.
+- [x] Assess enhancement, collision, precedence and operational constraints.
+- [x] Draft standalone Skill Creator package and opt-in integrated routing.
+- [x] Add trigger/non-trigger evaluation fixtures and static checks.
+- [x] Confirm private standalone ChatGPT plugin v0.1.0 creation and Creative Studio update to v0.3.0.
+- [ ] Merge PR after CI and run independent real ChatGPT triggering / browser tests.
+
+- [x] Integrate Awwwards, Screenshots, Design Scope and Flowscope as optional Creative Studio reference sources with documented access and conflict boundaries.
+
 ## Unified Terraform & OpenTofu adapter
 - [x] Review HashiCorp Terraform catalog and MPL-2.0 license; map all 16 Terraform skills.
 - [x] Extend existing adapter and static tests; preserve operational safety and exclude Packer.

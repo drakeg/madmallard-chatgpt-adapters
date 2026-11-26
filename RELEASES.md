@@ -43,3 +43,5 @@ Version and tagged release will be recorded when verified. Do not claim a releas
 - Unreleased (2026-11-24): Creative Studio adaptive Design Discovery — purpose, audience, style, inspiration, branding, visitor actions, stack and priorities; ask consequential missing questions only, allow delegated aesthetics and skip questions for maintenance or complete briefs.
 
 - Creative Studio v0.5.0 (2026-11-25): first-class image-generation workflow for 3 differentiated logo directions, product-specific palettes, typography, responsive layouts, brand preservation, repository-managed optimized assets, anti-repetition and explicit brand approval/delegation rules. Plugin publication status verified separately.
+
+- Unreleased (2026-11-26): Add standalone HeroUI (Apache-2.0), daisyUI (MIT) and AlignUI (MIT Base only; Pro separately licensed) skills, plus Creative Studio comparative library selection and no-stacking/no-template-repetition rules.

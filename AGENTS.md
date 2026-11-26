@@ -16,4 +16,6 @@
 
 - For new independent brand/product designs, use Creative Studio's `references/brand-identity.md`: no recurring default palette, generic mark, type pairing or reused layout across unrelated products; preserve approved branding. When a suitable generator is available, present three genuinely distinct logo concepts, manage optimized sources/favicons, and verify actual accessibility rather than claiming checklist compliance.
 
+- Ant Design is an optional React component library, not the default site template. Compare fit, React/antd compatibility, cost and current component systems first. Preserve Taste/Owl authority and approved product identity; favor official component APIs and token customization; never claim CLI/test results without running them.
+
 - Choose UI libraries by actual application needs and dependencies: daisyUI for cross-framework Tailwind, AlignUI free Base for owned React/Tailwind source, HeroUI for compatible React 19/Tailwind 4, Ant Design for enterprise React CRUD. Preserve current working library; avoid stacking. AlignUI Pro requires separately licensed approval. Verify actual brand and UX behavior.

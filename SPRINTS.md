@@ -109,6 +109,12 @@
 - [x] Add brand regression scenarios and plugin packaging.
 - [ ] Verify live generation/selection, web accessibility and brand asset use on a real project.
 
+## Ant Design — optional UI implementation (2026-11-26)
+- [x] Inspect official Ant Design and Ant Design skill sources and MIT license.
+- [x] Document standalone Ant Design ChatGPT routing and evaluation cases.
+- [x] Add conditional Creative Studio selection/branding rules and regression fixtures.
+- [ ] Verify actual component API lookup, lint, accessibility and UI workflows on a representative React project.
+
 ## Component-library selection — HeroUI, daisyUI, AlignUI (2026-11-26)
 - [x] Review HeroUI framework constraints, daisyUI v5 and AlignUI Base/Pro licensing.
 - [x] Create standalone adapters and competing-library decision matrix in Creative Studio.

@@ -41,6 +41,10 @@ Creative Studio evaluates **one component library at a time** against existing s
 
 The private integrated Creative Studio plugin is updated to **v0.7.0**, preserving its prior brand, UX, motion and Ant Design workflows and adding a separate component-library selection skill.
 
+## Ant Design — optional React UI framework
+
+Creative Studio now **evaluates** Ant Design for complex React dashboards, business forms, tables and CRUD views, using the [standalone Ant Design adapter](../ant-design/README.md) and [adoption/compatibility guide](references/ant-design.md). It is **not** a universal design system: preserve existing Bootstrap, DaisyUI, shadcn/ui and non-React stacks when they meet requirements. Taste and existing approved identity govern palettes, typography and layout; Owl governs accessibility and flows; MengTo covers custom implementation. Configure documented Ant Design theme tokens where adopted, test real interactions, and avoid generic default blue/card/sidebar layouts across unrelated products.
+
 ## Open-source design references (Mobbin alternatives)
 
 For targeted inspiration, Creative Studio can consult these **four complementary research sources** before designing:
@@ -74,7 +78,7 @@ Creative Studio now performs **adaptive discovery** before a new site or materia
 
 > Use Mad Mallard Creative Studio to redesign my SaaS homepage with a strong visual hierarchy, an accessible responsive layout, and an original seeded generative hero—only if it supports the product story.
 
-The private ChatGPT plugin has been updated to **version 0.5.0**, incorporating Scroll Craft and the four optional Mobbin-alternative research routes. The five standalone skills remain available independently. This skill provides orchestration instructions, **not** a bundled browser, a local Node/Chromium runtime, or automatic deployment. Only claim tests, rendered assets, and deployments that actually ran.
+The private ChatGPT plugin has been updated to **version 0.7.0**, incorporating Scroll Craft and the four optional Mobbin-alternative research routes. The five standalone skills remain available independently. This skill provides orchestration instructions, **not** a bundled browser, a local Node/Chromium runtime, or automatic deployment. Only claim tests, rendered assets, and deployments that actually ran.
 
 ## Scroll Craft fit and limits
 

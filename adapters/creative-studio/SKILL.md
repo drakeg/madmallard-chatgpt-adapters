@@ -63,6 +63,17 @@ See `references/design-discovery.md` for trigger/skip examples, starter wording 
 - **Algorithmic Art** owns procedural visuals only where the brief benefits; never add it just because available.
 - No duplicate instructions by default. When selecting two workflows, distinguish responsibilities and state what was adopted and what was omitted. Record alternatives and reasons in the integration assessment.
 
+## Conditional React component-library selection: HeroUI versus Ant Design
+
+When React UI libraries materially influence a project, evaluate **HeroUI** (https://heroui.com/) against **Ant Design** (https://ant.design/) and the *existing installed* UI library. They compete for the component-library role, and **must not both be installed by default**. See `references/heroui.md` for a grounded selection matrix.
+
+- **HeroUI v3** is a candidate for React **19+** with Tailwind CSS **v4** when the product benefits from composable, individually themed and React Aria-based interactive components. **Ant Design** is a strong alternative for data-heavy enterprise React administration, tables and CRUD workflows. Compare actual component needs, bundle, accessibility, migration cost and maintenance; neither is universally superior.
+- For existing Ant Design, HeroUI v2/v3, shadcn/ui, DaisyUI, Bootstrap or another coherent system, retain it unless a verified capability gap justifies change. **Do not migrate non-React or React 18 sites to HeroUI v3 automatically**. Explicitly check HeroUI's breaking v2/v3 differences and dependency compatibility.
+- **Creative Studio/Taste owns brand identity** and anti-repetition across independent products. **Owl** owns UX/accessibility, **MengTo** bespoke frontend implementation. Neither vendor's default theme, sidebar/card template or typography is an acceptable universal product identity.
+- Consult current official component API docs and version-specific installation/theming guidance. For HeroUI v3 use documented React Aria-compatible behavior, Tailwind 4/CSS variables and `@heroui/react`/`@heroui/styles` where appropriate. For Ant Design use documented `ConfigProvider` tokens. Never fabricate props, check results, installation or WCAG compliance.
+- Verify actual keyboard/focus behavior, dialogs, forms/errors, responsive layouts, contrast, loading/empty states, SSR/hydration, bundle size and app workflow. Record **choose HeroUI / choose Ant Design / keep existing / no component library**, the evidence and actual tests.
+- Vendor scripts, MCP tools and paid components are not installed by these instructions. Review commands before execution; never use paid HeroUI Pro assets without authorization. HeroUI repository LICENSE is Apache-2.0 and Ant Design is MIT; check notices before vendoring sources.
+
 ## Scroll Craft routing
 
 When selected, read the reviewed upstream `plugins/nateherk-design/skills/scroll-craft/SKILL.md` and `references/approved-collection.md`, `references/uniqueness.md`, `references/devices.md`, `references/feel.md`, `references/hero-depth.md`. Define a clear visitor journey, one emotional peak, page grammar, signature interaction and representative scroll-position/mobile/reduced-motion checks before claiming a build. When only Chat tools are available, write the design specification without asserting that the engine or browser executed. See `references/routes.md` for authority boundaries, and `references/design-inspiration.md` for four Mobbin alternatives.

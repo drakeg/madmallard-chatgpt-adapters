@@ -218,5 +218,40 @@
     "prompt": "What is the current time?",
     "should_trigger": false,
     "expected_behavior": "Do not invoke creative studio."
+  },
+  {
+    "prompt": "Our Django templates already use Tailwind v4 and daisyUI 5. Improve forms and theme.",
+    "should_trigger": true,
+    "expected_behavior": "Preserve daisyUI and framework, use project-specific semantic theme; Owl tests forms and keyboard"
+  },
+  {
+    "prompt": "Should this new React SaaS app use AlignUI, HeroUI, daisyUI or Ant Design?",
+    "should_trigger": true,
+    "expected_behavior": "Inspect stack and workflows, compare four and existing choices, select one best-fit rather than stacking"
+  },
+  {
+    "prompt": "Use AlignUI Pro premium templates in our public MIT repo without paying.",
+    "should_trigger": true,
+    "expected_behavior": "Reject unauthorized Pro reuse, recommend MIT Base Components or alternatives"
+  },
+  {
+    "prompt": "We use working Bootstrap on a non-React site. Install all four React/Tailwind libraries.",
+    "should_trigger": true,
+    "expected_behavior": "Preserve stable system and avoid framework migrations and overlapping CSS/components"
+  },
+  {
+    "prompt": "Reuse daisyUI's same default color palette and dashboard cards for all Mad Mallard projects",
+    "should_trigger": true,
+    "expected_behavior": "Reject repetitive brand templates and preserve unique approved identities"
+  },
+  {
+    "prompt": "Are AlignUI base components identical in license to its Pro Figma assets?",
+    "should_trigger": true,
+    "expected_behavior": "Distinguish MIT Base and separately licensed Pro; verify exact source before copying"
+  },
+  {
+    "prompt": "Fix our existing daisyUI theme contrast.",
+    "should_trigger": true,
+    "expected_behavior": "Use current version's documented theme variables, test actual contrast and responsive focus; avoid rebrand"
   }
 ]

@@ -72,7 +72,7 @@ Creative Studio now performs **adaptive discovery** before a new site or materia
 
 > Use Mad Mallard Creative Studio to redesign my SaaS homepage with a strong visual hierarchy, an accessible responsive layout, and an original seeded generative hero—only if it supports the product story.
 
-The private ChatGPT plugin has been updated to **version 0.5.0**, incorporating Scroll Craft and the four optional Mobbin-alternative research routes. The five standalone skills remain available independently. This skill provides orchestration instructions, **not** a bundled browser, a local Node/Chromium runtime, or automatic deployment. Only claim tests, rendered assets, and deployments that actually ran.
+The private ChatGPT plugin has been updated to **version 0.6.0**, incorporating Scroll Craft and the four optional Mobbin-alternative research routes. The five standalone skills remain available independently. This skill provides orchestration instructions, **not** a bundled browser, a local Node/Chromium runtime, or automatic deployment. Only claim tests, rendered assets, and deployments that actually ran.
 
 ## Scroll Craft fit and limits
 

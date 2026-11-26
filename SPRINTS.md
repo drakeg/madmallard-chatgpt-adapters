@@ -108,3 +108,9 @@
 - [x] Document repository brand assets, favicons, accessibility and approval status.
 - [x] Add brand regression scenarios and plugin packaging.
 - [ ] Verify live generation/selection, web accessibility and brand asset use on a real project.
+
+## Component-library selection — HeroUI, daisyUI, AlignUI (2026-11-26)
+- [x] Review HeroUI framework constraints, daisyUI v5 and AlignUI Base/Pro licensing.
+- [x] Create standalone adapters and competing-library decision matrix in Creative Studio.
+- [x] Add documentation, conflict/brand safeguards and evaluation prompts.
+- [ ] Execute real installed-skill triggering and browser tests for each selection route.

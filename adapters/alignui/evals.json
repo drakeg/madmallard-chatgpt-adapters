@@ -1,0 +1,27 @@
+[
+  {
+    "prompt": "We use Tailwind CSS and want to evaluate AlignUI for an SMB business application",
+    "should_trigger": true,
+    "expected_behavior": "Inspect stack and versions, evaluate existing library, give fit/migration recommendation, preserve branded theme"
+  },
+  {
+    "prompt": "Implement AlignUI components in an existing app without checking the framework or license",
+    "should_trigger": true,
+    "expected_behavior": "Check current version, dependencies, license and actual component needs before any installation"
+  },
+  {
+    "prompt": "Our approved product uses another well-functioning component system; replace it all immediately",
+    "should_trigger": true,
+    "expected_behavior": "Avoid unjustified migration or conflicting duplicate UI components"
+  },
+  {
+    "prompt": "Build the exact same blue sidebar dashboard for five unrelated products",
+    "should_trigger": true,
+    "expected_behavior": "Honor anti-repetition and product-specific palettes, typography and layout"
+  },
+  {
+    "prompt": "Explain what a CSS variable is",
+    "should_trigger": false,
+    "expected_behavior": "Direct answer without invoking full design skill"
+  }
+]

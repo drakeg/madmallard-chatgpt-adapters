@@ -35,6 +35,10 @@ flowchart TD
 
 **The result:** Taste sets visual direction; Scroll Craft is an opt-in narrative specialist; Owl-Listener supplies focused UX research, design-system, accessibility and QA workflows; MengTo handles specialized implementation; Algorithmic Art is optional. Competing guidance is resolved in favor of real user requirements, accessibility, existing brand contracts, verified behavior and then task specialization. Accessibility, responsive behavior, and performance apply throughout.
 
+## Ant Design — optional React UI framework
+
+Creative Studio now **evaluates** Ant Design for complex React dashboards, business forms, tables and CRUD views, using the [standalone Ant Design adapter](../ant-design/README.md) and [adoption/compatibility guide](references/ant-design.md). It is **not** a universal design system: preserve existing Bootstrap, DaisyUI, shadcn/ui and non-React stacks when they meet requirements. Taste and existing approved identity govern palettes, typography and layout; Owl governs accessibility and flows; MengTo covers custom implementation. Configure documented Ant Design theme tokens where adopted, test real interactions, and avoid generic default blue/card/sidebar layouts across unrelated products.
+
 ## Open-source design references (Mobbin alternatives)
 
 For targeted inspiration, Creative Studio can consult these **four complementary research sources** before designing:

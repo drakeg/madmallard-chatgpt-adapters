@@ -54,3 +54,7 @@
 - P1: Creative Studio — run new-product brand discovery on an authorized project, generate three truly different logos, obtain a direction, and verify repo asset exports.
 - P1: Creative Studio — compare unrelated project brand portfolios for color/font/logo/layout repetition and run keyboard/contrast/responsive verification.
 - P2: Creative Studio — add lightweight CI checks for required brand source/metadata and optimization where each product has a documented brand contract.
+
+- P1: Run real React 19/Tailwind 4 HeroUI and AlignUI baseline workflow tests and record license/attribution choices.
+- P1: Test daisyUI v5 on an existing Tailwind 4 application, including accessible theme and keyboard interactions.
+- P1: Verify Creative Studio chooses one UI library without rewriting existing working systems.

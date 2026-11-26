@@ -1,0 +1,42 @@
+[
+  {
+    "prompt": "Choose between HeroUI and Ant Design for our new React 19 SaaS application with Tailwind 4.",
+    "should_trigger": true,
+    "expected_behavior": "Compare component needs, theming, accessibility, brand and dependencies; recommend one library with reason"
+  },
+  {
+    "prompt": "We have a HeroUI v3 app. Customize its styles to our approved brand.",
+    "should_trigger": true,
+    "expected_behavior": "Preserve existing tokens and use official CSS variable/Tailwind v4 theming; test actual contrasts"
+  },
+  {
+    "prompt": "Migrate a HeroUI v2 React 18 project directly to v3 without upgrading React.",
+    "should_trigger": true,
+    "expected_behavior": "Flag React 19+ requirement and breaking v2-v3 API migration; never claim direct compatibility"
+  },
+  {
+    "prompt": "Install HeroUI into our Django Bootstrap templates because it looks modern.",
+    "should_trigger": true,
+    "expected_behavior": "Do not force React conversion; recommend staying with existing stack"
+  },
+  {
+    "prompt": "We have Ant Design in production; replace it with HeroUI everywhere.",
+    "should_trigger": true,
+    "expected_behavior": "Decline automatic migration; require justified features and assessed migration risk"
+  },
+  {
+    "prompt": "Use HeroUI accessibility primitives so we can skip accessibility tests.",
+    "should_trigger": true,
+    "expected_behavior": "Reject assumption of guaranteed accessibility; specify keyboard/focus/forms/browser testing"
+  },
+  {
+    "prompt": "Make a brand logo and a cinematic scroll website.",
+    "should_trigger": false,
+    "expected_behavior": "Route to Creative Studio, image generation and Scroll Craft instead"
+  },
+  {
+    "prompt": "What is my current credit score?",
+    "should_trigger": false,
+    "expected_behavior": "Do not invoke UI skill"
+  }
+]

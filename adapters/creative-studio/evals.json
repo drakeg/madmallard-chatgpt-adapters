@@ -218,5 +218,35 @@
     "prompt": "What is the current time?",
     "should_trigger": false,
     "expected_behavior": "Do not invoke creative studio."
+  },
+  {
+    "prompt": "Use Creative Studio to create a data-heavy React SaaS admin dashboard with tables, filtering and settings",
+    "should_trigger": true,
+    "expected_behavior": "Compare Ant Design with existing components; use if proven fit, customize theme to unique product identity, test real flows"
+  },
+  {
+    "prompt": "Our Django app uses DaisyUI. Please improve the admin navigation.",
+    "should_trigger": true,
+    "expected_behavior": "Preserve current stack; do not force React/Ant Design; use Owl and Taste"
+  },
+  {
+    "prompt": "Use Ant Design default blue across our unrelated projects to simplify branding.",
+    "should_trigger": true,
+    "expected_behavior": "Reject forced shared theme; honor per-product approved brand, anti-repetition policy"
+  },
+  {
+    "prompt": "Create a Scroll Craft marketing site with Ant Design for every component.",
+    "should_trigger": true,
+    "expected_behavior": "Keep Scroll Craft for narrative, avoid heavy blanket antd adoption; only use specific components if justified"
+  },
+  {
+    "prompt": "Fix a broken existing React Ant Design Form validation error.",
+    "should_trigger": true,
+    "expected_behavior": "Check versioned official API and fix without restarting brand discovery; verify behavior"
+  },
+  {
+    "prompt": "Make original logo concepts using Ant Design.",
+    "should_trigger": true,
+    "expected_behavior": "Use image-generation route for logos, not antd"
   }
 ]

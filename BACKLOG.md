@@ -54,3 +54,6 @@
 - P1: Creative Studio — run new-product brand discovery on an authorized project, generate three truly different logos, obtain a direction, and verify repo asset exports.
 - P1: Creative Studio — compare unrelated project brand portfolios for color/font/logo/layout repetition and run keyboard/contrast/responsive verification.
 - P2: Creative Studio — add lightweight CI checks for required brand source/metadata and optimization where each product has a documented brand contract.
+
+- P1: Ant Design adapter — verify live ChatGPT trigger cases and component API checks against a real React application.
+- P1: Creative Studio — test that non-React/approved design systems bypass Ant Design selection, and that Ant Design theme tokens preserve distinct product brands.

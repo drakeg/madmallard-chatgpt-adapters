@@ -20,3 +20,5 @@ The skill does not install components, run CLI commands, or connect a HeroUI MCP
 ## Attribution
 
 Original instructions citing HeroUI documentation; upstream repository LICENSE is Apache-2.0. Preserve appropriate notices for any copied code and never assume premium components are free.
+
+**Private ChatGPT plugin v0.1.0:** https://chatgpt.com/plugins/plugins_6b07c3023eb08191a99aa3fe20da3325

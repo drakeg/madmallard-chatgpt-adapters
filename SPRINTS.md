@@ -114,3 +114,9 @@
 - [x] Document standalone Ant Design ChatGPT routing and evaluation cases.
 - [x] Add conditional Creative Studio selection/branding rules and regression fixtures.
 - [ ] Verify actual component API lookup, lint, accessibility and UI workflows on a representative React project.
+
+## Component-library selection — HeroUI, daisyUI, AlignUI (2026-11-26)
+- [x] Review HeroUI framework constraints, daisyUI v5 and AlignUI Base/Pro licensing.
+- [x] Create standalone adapters and competing-library decision matrix in Creative Studio.
+- [x] Add documentation, conflict/brand safeguards and evaluation prompts.
+- [ ] Execute real installed-skill triggering and browser tests for each selection route.

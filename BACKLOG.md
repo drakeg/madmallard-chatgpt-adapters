@@ -57,3 +57,7 @@
 
 - P1: Ant Design adapter — verify live ChatGPT trigger cases and component API checks against a real React application.
 - P1: Creative Studio — test that non-React/approved design systems bypass Ant Design selection, and that Ant Design theme tokens preserve distinct product brands.
+
+- P1: Run real React 19/Tailwind 4 HeroUI and AlignUI baseline workflow tests and record license/attribution choices.
+- P1: Test daisyUI v5 on an existing Tailwind 4 application, including accessible theme and keyboard interactions.
+- P1: Verify Creative Studio chooses one UI library without rewriting existing working systems.

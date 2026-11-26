@@ -35,6 +35,12 @@ flowchart TD
 
 **The result:** Taste sets visual direction; Scroll Craft is an opt-in narrative specialist; Owl-Listener supplies focused UX research, design-system, accessibility and QA workflows; MengTo handles specialized implementation; Algorithmic Art is optional. Competing guidance is resolved in favor of real user requirements, accessibility, existing brand contracts, verified behavior and then task specialization. Accessibility, responsive behavior, and performance apply throughout.
 
+## Component-library selection: HeroUI, daisyUI, AlignUI and Ant Design
+
+Creative Studio evaluates **one component library at a time** against existing stack and product requirements, preserving working code and brand identity. **[daisyUI](../daisyui/README.md)** adds Tailwind class-based components across frameworks; **[AlignUI](../alignui/README.md)** supplies editable React/TypeScript/Tailwind base source (MIT Base, separately licensed Pro); **[HeroUI](../heroui/README.md)** targets React 19+/Tailwind 4 with React Aria; **[Ant Design](../ant-design/README.md)** offers sophisticated React enterprise UI. Do not install all four or default to the same theme on unrelated products. See the [comparison matrix](references/component-libraries.md) and [HeroUI selection guide](references/heroui.md).
+
+The private integrated Creative Studio plugin is updated to **v0.7.0**, preserving its prior brand, UX, motion and Ant Design workflows and adding a separate component-library selection skill.
+
 ## Ant Design — optional React UI framework
 
 Creative Studio now **evaluates** Ant Design for complex React dashboards, business forms, tables and CRUD views, using the [standalone Ant Design adapter](../ant-design/README.md) and [adoption/compatibility guide](references/ant-design.md). It is **not** a universal design system: preserve existing Bootstrap, DaisyUI, shadcn/ui and non-React stacks when they meet requirements. Taste and existing approved identity govern palettes, typography and layout; Owl governs accessibility and flows; MengTo covers custom implementation. Configure documented Ant Design theme tokens where adopted, test real interactions, and avoid generic default blue/card/sidebar layouts across unrelated products.
@@ -72,7 +78,7 @@ Creative Studio now performs **adaptive discovery** before a new site or materia
 
 > Use Mad Mallard Creative Studio to redesign my SaaS homepage with a strong visual hierarchy, an accessible responsive layout, and an original seeded generative hero—only if it supports the product story.
 
-The private ChatGPT plugin has been updated to **version 0.6.0**, incorporating Scroll Craft and the four optional Mobbin-alternative research routes. The five standalone skills remain available independently. This skill provides orchestration instructions, **not** a bundled browser, a local Node/Chromium runtime, or automatic deployment. Only claim tests, rendered assets, and deployments that actually ran.
+The private ChatGPT plugin has been updated to **version 0.7.0**, incorporating Scroll Craft and the four optional Mobbin-alternative research routes. The five standalone skills remain available independently. This skill provides orchestration instructions, **not** a bundled browser, a local Node/Chromium runtime, or automatic deployment. Only claim tests, rendered assets, and deployments that actually ran.
 
 ## Scroll Craft fit and limits
 

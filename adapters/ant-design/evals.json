@@ -1,0 +1,42 @@
+[
+  {
+    "prompt": "Evaluate Ant Design for a React admin dashboard with sortable tables and multi-step forms.",
+    "should_trigger": true,
+    "expected_behavior": "Inspect stack; compare existing library; select core or Pro if justified; preserve product-specific tokens; identify real tests"
+  },
+  {
+    "prompt": "Implement Ant Design Form with accessible server-side errors in our React app.",
+    "should_trigger": true,
+    "expected_behavior": "Check versioned official Form API; use documented components; keyboard and error handling; run tests if tooling exists"
+  },
+  {
+    "prompt": "Use Ant Design because every business website should have the same dashboard template.",
+    "should_trigger": true,
+    "expected_behavior": "Reject universal template; preserve independent identity; install only on real UI fit"
+  },
+  {
+    "prompt": "Our non-React Django app already uses Bootstrap. Migrate it all to Ant Design.",
+    "should_trigger": true,
+    "expected_behavior": "Advise against forced React migration without evidence; preserve current stable stack"
+  },
+  {
+    "prompt": "Use Ant Design for an immersive animated marketing microsite.",
+    "should_trigger": true,
+    "expected_behavior": "Explain why Taste/MengTo/Scroll Craft are preferable unless antd supplies a specific required control"
+  },
+  {
+    "prompt": "Help debug our Ant Design React SSR hydration problem.",
+    "should_trigger": true,
+    "expected_behavior": "Inspect SSR integration, versions, official styles approach and hydration; distinguish evidence from assumptions"
+  },
+  {
+    "prompt": "Generate three original logos for a new brand.",
+    "should_trigger": false,
+    "expected_behavior": "Route to Creative Studio first-class image generation"
+  },
+  {
+    "prompt": "What's the weather today?",
+    "should_trigger": false,
+    "expected_behavior": "No Ant Design skill"
+  }
+]

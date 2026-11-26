@@ -15,3 +15,5 @@
 - Keep tested version/commit pins and OS compatibility checks; run real install and protocol tests where practical.
 
 - For new independent brand/product designs, use Creative Studio's `references/brand-identity.md`: no recurring default palette, generic mark, type pairing or reused layout across unrelated products; preserve approved branding. When a suitable generator is available, present three genuinely distinct logo concepts, manage optimized sources/favicons, and verify actual accessibility rather than claiming checklist compliance.
+
+- Ant Design is an optional React component library, not the default site template. Compare fit, React/antd compatibility, cost and current component systems first. Preserve Taste/Owl authority and approved product identity; favor official component APIs and token customization; never claim CLI/test results without running them.

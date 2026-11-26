@@ -108,3 +108,9 @@
 - [x] Document repository brand assets, favicons, accessibility and approval status.
 - [x] Add brand regression scenarios and plugin packaging.
 - [ ] Verify live generation/selection, web accessibility and brand asset use on a real project.
+
+## Ant Design — optional UI implementation (2026-11-26)
+- [x] Inspect official Ant Design and Ant Design skill sources and MIT license.
+- [x] Document standalone Ant Design ChatGPT routing and evaluation cases.
+- [x] Add conditional Creative Studio selection/branding rules and regression fixtures.
+- [ ] Verify actual component API lookup, lint, accessibility and UI workflows on a representative React project.

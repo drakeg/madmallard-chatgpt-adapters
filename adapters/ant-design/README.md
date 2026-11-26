@@ -2,6 +2,8 @@
 
 This original ChatGPT skill adapts the **official** [Ant Design](https://ant.design/) and [ant-design/antd-skill](https://github.com/ant-design/antd-skill) guidance for choosing and implementing a React component library. Both upstream repositories use the MIT license.
 
+**Private ChatGPT plugin:** https://chatgpt.com/plugins/plugins_6b07c0e057088191825dc9ac033d9824 (v0.1.0).
+
 Use the standalone adapter when considering Ant Design for a React project or working with existing `antd` components. See [SKILL.md](SKILL.md), [references](references/official-sources.md) and [evaluations](evals.json).
 
 **Important:** This skill does not install `antd`, `@ant-design/cli`, ProComponents or Ant Design X. Component API lookups and code tests require an actual project runtime. Do not upgrade or replace an existing UI library without a proven benefit.

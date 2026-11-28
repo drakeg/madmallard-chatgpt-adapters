@@ -47,3 +47,5 @@ Version and tagged release will be recorded when verified. Do not claim a releas
 - Unreleased (2026-11-26): Add optional standalone Ant Design React skill and conditional Creative Studio integration, without migrating non-React or already suitable UI systems. Preserve brand identity, UX checks and actual test evidence.
 
 - Unreleased (2026-11-26): Add standalone HeroUI (Apache-2.0), daisyUI (MIT) and AlignUI (MIT Base only; Pro separately licensed) skills, plus Creative Studio comparative library selection and no-stacking/no-template-repetition rules.
+
+- Unreleased: AutoSwagger authorized API exposure review adapter and private plugin package (BSD-3-Clause upstream attribution).

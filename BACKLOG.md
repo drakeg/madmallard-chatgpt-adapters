@@ -61,3 +61,6 @@
 - P1: Run real React 19/Tailwind 4 HeroUI and AlignUI baseline workflow tests and record license/attribution choices.
 - P1: Test daisyUI v5 on an existing Tailwind 4 application, including accessible theme and keyboard interactions.
 - P1: Verify Creative Studio chooses one UI library without rewriting existing working systems.
+
+- [ ] Run independent positive/negative trigger evaluations for AutoSwagger ChatGPT plugin.
+- [ ] Build self-contained OpenAPI local fixture to test findings with no live external targets.

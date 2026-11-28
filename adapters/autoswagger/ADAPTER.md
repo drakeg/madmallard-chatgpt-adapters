@@ -17,3 +17,5 @@ To scan a permitted test environment, give its owner-approved hostname, request-
 ## Install manually (optional)
 
 From a trusted checked-out upstream revision, create a virtualenv, install the reviewed requirements, and run `python3 autoswagger.py -h`. See the upstream README for Docker alternative. Never copy a raw PII/secret report into a public GitHub PR.
+
+Private ChatGPT plugin: https://chatgpt.com/plugins/plugins_6b0a60c762b88191a6ec77f1df19d6a0 (v0.1.0, independently packaged).

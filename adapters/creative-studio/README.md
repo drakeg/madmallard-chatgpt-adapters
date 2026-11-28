@@ -45,6 +45,8 @@ The private integrated Creative Studio plugin is updated to **v0.7.0**, preservi
 
 Creative Studio now **evaluates** Ant Design for complex React dashboards, business forms, tables and CRUD views, using the [standalone Ant Design adapter](../ant-design/README.md) and [adoption/compatibility guide](references/ant-design.md). It is **not** a universal design system: preserve existing Bootstrap, DaisyUI, shadcn/ui and non-React stacks when they meet requirements. Taste and existing approved identity govern palettes, typography and layout; Owl governs accessibility and flows; MengTo covers custom implementation. Configure documented Ant Design theme tokens where adopted, test real interactions, and avoid generic default blue/card/sidebar layouts across unrelated products.
 
+**[coss ui](https://coss.com/ui)** is another optional React/Tailwind source-owned component system built on Base UI, versus AlignUI's Radix-based Base Components. The Studio must evaluate both against the existing stack and select one coherent system, preserving brand identity and real accessibility checks. [Selection matrix](references/component-libraries.md).
+
 ## Open-source design references (Mobbin alternatives)
 
 For targeted inspiration, Creative Studio can consult these **four complementary research sources** before designing:

@@ -11,6 +11,10 @@ Create new ChatGPT-compatible skills, adapt existing agent skills, refine trigge
 
 The upstream Claude Skill Creator uses Claude-specific agents, commands, and evaluation tooling. This adapter reimplements the **methodology** for ChatGPT without claiming those tools work here. No Anthropic source scripts are copied.
 
+## UI library source intake
+
+For web/UI skills, Skill Creator recognizes [AlignUI](https://www.alignui.com/) (already covered by the standalone adapter) and [coss ui](https://coss.com/ui) (React/Tailwind **Base UI** source with official agent guidance). It evaluates fit, licensing, anti-repetition and accessibility before adapting vendor material. See [UI library sources](references/ui-library-sources.md). Do not duplicate existing skills or install packages automatically.
+
 ## Use in ChatGPT Chat
 
 In a conversation, reference or attach [SKILL.md](SKILL.md), then say:

@@ -127,3 +127,7 @@
 - [x] Add vetted library intake guidance to Skill Creator and conditional routing to Creative Studio.
 - [x] Add positive/negative evaluation fixtures and documentation.
 - [ ] Test real skill triggering and a Base UI component workflow in a React app.
+## AutoSwagger skill adapter — 2026-11-28
+- [x] Review upstream tool, scope, license and risky flags.
+- [x] Create focused ChatGPT plugin skill and evaluation fixtures.
+- [ ] Run real ChatGPT trigger evaluations and an authorized offline API fixture.

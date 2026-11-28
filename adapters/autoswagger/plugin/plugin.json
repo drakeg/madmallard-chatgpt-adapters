@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "madmallard-autoswagger",
+  "version": "0.1.0",
+  "description": "Defensive authorized Swagger/OpenAPI endpoint exposure assessments and sensitive finding triage.",
+  "author": {"name": "Greg Drake"},
+  "keywords": ["OpenAPI", "Swagger", "API security", "authorization", "AutoSwagger"],
+  "homepage": "https://github.com/drakeg/madmallard-chatgpt-adapters",
+  "extensions": {"com.openai": {"interface": {
+    "capabilities": [], "category": "Developer Tools",
+    "defaultPrompt": "Use Mad Mallard AutoSwagger for a passive review of my OpenAPI specification. Ask for explicit live scan authorization before sending requests.",
+    "developerName": "Mad Mallard Solutions",
+    "displayName": "Mad Mallard AutoSwagger",
+    "longDescription": "Assess explicitly authorized Swagger/OpenAPI services for potentially exposed unauthenticated endpoints; triage sensitive results, verify findings, and propose remediations. Includes safe offline spec reviews. Does not include an automatic scanner execution tool.",
+    "shortDescription": "Authorized API exposure audits"
+  }}}
+}

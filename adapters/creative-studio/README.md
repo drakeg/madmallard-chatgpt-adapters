@@ -39,7 +39,7 @@ flowchart TD
 
 Creative Studio evaluates **one component library at a time** against existing stack and product requirements, preserving working code and brand identity. **[daisyUI](../daisyui/README.md)** adds Tailwind class-based components across frameworks; **[AlignUI](../alignui/README.md)** supplies editable React/TypeScript/Tailwind base source (MIT Base, separately licensed Pro); **[HeroUI](../heroui/README.md)** targets React 19+/Tailwind 4 with React Aria; **[Ant Design](../ant-design/README.md)** offers sophisticated React enterprise UI. Do not install all four or default to the same theme on unrelated products. See the [comparison matrix](references/component-libraries.md) and [HeroUI selection guide](references/heroui.md).
 
-The private integrated Creative Studio plugin is updated to **v0.7.0**, preserving its prior brand, UX, motion and Ant Design workflows and adding a separate component-library selection skill.
+The private integrated Creative Studio plugin is updated to **v0.8.0**, preserving its prior brand, UX, motion and Ant Design workflows and adding a separate component-library selection skill.
 
 ## Ant Design — optional React UI framework
 

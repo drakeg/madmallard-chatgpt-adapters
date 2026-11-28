@@ -120,3 +120,10 @@
 - [x] Create standalone adapters and competing-library decision matrix in Creative Studio.
 - [x] Add documentation, conflict/brand safeguards and evaluation prompts.
 - [ ] Execute real installed-skill triggering and browser tests for each selection route.
+
+## Skill Creator and Creative Studio — coss/AlignUI sources (2026-11-27)
+- [x] Confirm existing AlignUI integration to avoid duplicate skills.
+- [x] Review coss ui official skill, Base UI design, modern vs Origin components and MIT source license.
+- [x] Add vetted library intake guidance to Skill Creator and conditional routing to Creative Studio.
+- [x] Add positive/negative evaluation fixtures and documentation.
+- [ ] Test real skill triggering and a Base UI component workflow in a React app.

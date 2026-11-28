@@ -1,7 +1,7 @@
 # Skill Creator — ChatGPT adapter
 
 **Upstream:** https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator (Apache-2.0)  
-**Private ChatGPT plugin:** https://chatgpt.com/plugins/plugins_6b0454d063008191bc0cd9be57ec949e (v0.1.0, created 2026-11-23)  
+**Private ChatGPT plugin:** https://chatgpt.com/plugins/plugins_6b0454d063008191bc0cd9be57ec949e (v0.2.0, updated 2026-11-27)  
 **ChatGPT workflow:** [SKILL.md](SKILL.md)  
 **Evaluation examples:** [evals.json](evals.json)
 

@@ -61,3 +61,5 @@
 - P1: Run real React 19/Tailwind 4 HeroUI and AlignUI baseline workflow tests and record license/attribution choices.
 - P1: Test daisyUI v5 on an existing Tailwind 4 application, including accessible theme and keyboard interactions.
 - P1: Verify Creative Studio chooses one UI library without rewriting existing working systems.
+
+- P1: Validate coss ui vs AlignUI selection on existing React projects; check Base UI render vs Radix asChild migration, licensing, accessibility and build tests.

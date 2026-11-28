@@ -1,0 +1,16 @@
+{
+  "name": "madmallard-autoswagger",
+  "version": "0.1.0",
+  "description": "Safe defensive Swagger/OpenAPI audits using AutoSwagger.",
+  "author": {"name": "Greg Drake"},
+  "homepage": "https://github.com/drakeg/madmallard-chatgpt-adapters",
+  "skills": "./skills",
+  "interface": {
+    "capabilities": [], "category": "Developer Tools",
+    "defaultPrompt": "Review my approved OpenAPI specification for security and only run a scanner on expressly authorized targets.",
+    "developerName": "Mad Mallard Solutions",
+    "displayName": "Mad Mallard AutoSwagger",
+    "longDescription": "Defensive analysis and confirmation of potentially unauthenticated endpoints on authorized APIs with strict rate and scope safety.",
+    "shortDescription": "Authorized API exposure audits"
+  }
+}

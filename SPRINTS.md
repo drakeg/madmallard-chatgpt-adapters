@@ -120,3 +120,8 @@
 - [x] Create standalone adapters and competing-library decision matrix in Creative Studio.
 - [x] Add documentation, conflict/brand safeguards and evaluation prompts.
 - [ ] Execute real installed-skill triggering and browser tests for each selection route.
+
+## AutoSwagger skill adapter — 2026-11-28
+- [x] Review upstream tool, scope, license and risky flags.
+- [x] Create focused ChatGPT plugin skill and evaluation fixtures.
+- [ ] Run real ChatGPT trigger evaluations and an authorized offline API fixture.

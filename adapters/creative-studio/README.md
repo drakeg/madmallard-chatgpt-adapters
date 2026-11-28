@@ -39,11 +39,13 @@ flowchart TD
 
 Creative Studio evaluates **one component library at a time** against existing stack and product requirements, preserving working code and brand identity. **[daisyUI](../daisyui/README.md)** adds Tailwind class-based components across frameworks; **[AlignUI](../alignui/README.md)** supplies editable React/TypeScript/Tailwind base source (MIT Base, separately licensed Pro); **[HeroUI](../heroui/README.md)** targets React 19+/Tailwind 4 with React Aria; **[Ant Design](../ant-design/README.md)** offers sophisticated React enterprise UI. Do not install all four or default to the same theme on unrelated products. See the [comparison matrix](references/component-libraries.md) and [HeroUI selection guide](references/heroui.md).
 
-The private integrated Creative Studio plugin is updated to **v0.7.0**, preserving its prior brand, UX, motion and Ant Design workflows and adding a separate component-library selection skill.
+The private integrated Creative Studio plugin is updated to **v0.8.0**, preserving its prior brand, UX, motion and Ant Design workflows and adding a separate component-library selection skill.
 
 ## Ant Design — optional React UI framework
 
 Creative Studio now **evaluates** Ant Design for complex React dashboards, business forms, tables and CRUD views, using the [standalone Ant Design adapter](../ant-design/README.md) and [adoption/compatibility guide](references/ant-design.md). It is **not** a universal design system: preserve existing Bootstrap, DaisyUI, shadcn/ui and non-React stacks when they meet requirements. Taste and existing approved identity govern palettes, typography and layout; Owl governs accessibility and flows; MengTo covers custom implementation. Configure documented Ant Design theme tokens where adopted, test real interactions, and avoid generic default blue/card/sidebar layouts across unrelated products.
+
+**[coss ui](https://coss.com/ui)** is another optional React/Tailwind source-owned component system built on Base UI, versus AlignUI's Radix-based Base Components. The Studio must evaluate both against the existing stack and select one coherent system, preserving brand identity and real accessibility checks. [Selection matrix](references/component-libraries.md).
 
 ## Open-source design references (Mobbin alternatives)
 

@@ -48,4 +48,5 @@ Version and tagged release will be recorded when verified. Do not claim a releas
 
 - Unreleased (2026-11-26): Add standalone HeroUI (Apache-2.0), daisyUI (MIT) and AlignUI (MIT Base only; Pro separately licensed) skills, plus Creative Studio comparative library selection and no-stacking/no-template-repetition rules.
 
+- Unreleased (2026-11-27): Skill Creator library reference intake for existing AlignUI and MIT coss ui; Creative Studio can evaluate coss/Base UI against AlignUI/Radix and other established libraries without stacking or rebranding.
 - Unreleased: AutoSwagger authorized API exposure review adapter and private plugin package (BSD-3-Clause upstream attribution).

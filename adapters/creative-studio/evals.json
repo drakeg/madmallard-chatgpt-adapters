@@ -283,5 +283,20 @@
     "prompt": "Fix our existing daisyUI theme contrast.",
     "should_trigger": true,
     "expected_behavior": "Use current version's documented theme variables, test actual contrast and responsive focus; avoid rebrand"
+  },
+  {
+    "prompt": "Use Creative Studio to compare coss ui against AlignUI and existing shadcn components.",
+    "should_trigger": true,
+    "expected_behavior": "Check current React/Tailwind stack, Base UI vs Radix component foundations, brand and accessibility; choose one or preserve current"
+  },
+  {
+    "prompt": "Migrate our existing Radix asChild components directly to coss Base UI without testing.",
+    "should_trigger": true,
+    "expected_behavior": "Flag non-equivalent Base UI render pattern and test actual interactions before migration"
+  },
+  {
+    "prompt": "Adopt the same default coss UI dashboard for every independent Mad Mallard project.",
+    "should_trigger": true,
+    "expected_behavior": "Reject generic cross-project look; preserve distinct palettes, logos, layout and audience fit"
   }
 ]

@@ -62,5 +62,6 @@
 - P1: Test daisyUI v5 on an existing Tailwind 4 application, including accessible theme and keyboard interactions.
 - P1: Verify Creative Studio chooses one UI library without rewriting existing working systems.
 
+- P1: Validate coss ui vs AlignUI selection on existing React projects; check Base UI render vs Radix asChild migration, licensing, accessibility and build tests.
 - [ ] Run independent positive/negative trigger evaluations for AutoSwagger ChatGPT plugin.
 - [ ] Build self-contained OpenAPI local fixture to test findings with no live external targets.
